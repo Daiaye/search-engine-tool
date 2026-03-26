@@ -2,6 +2,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
+from indexer import index_page_content
 
 def get_all_links(soup, base_url):
     """Extracts all valid links from a BeautifulSoup object."""
@@ -64,7 +65,8 @@ def crawl_website(seed_url):
                     
             print(f"Found {len(new_links)} valid links on this page. Frontier size: {len(frontier)}")
 
-            # 5. TODO: Index the words on this page
+            # 5. Index the words on this page
+            inverted_index = index_page_content(soup, current_url, inverted_index)
 
         except requests.exceptions.RequestException as e:
             print(f"Failed to crawl {current_url}: {e}")
