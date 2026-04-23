@@ -1,0 +1,4261 @@
+{
+    "quotes": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                0,
+                3,
+                273
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 3,
+            "positions": [
+                0,
+                3,
+                9
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                0,
+                3,
+                617
+            ]
+        }
+    },
+    "to": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 7,
+            "positions": [
+                1,
+                4,
+                65,
+                133,
+                149,
+                172,
+                180
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 2,
+            "positions": [
+                1,
+                4
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 20,
+            "positions": [
+                1,
+                4,
+                114,
+                118,
+                142,
+                180,
+                203,
+                233,
+                246,
+                347,
+                378,
+                394,
+                415,
+                439,
+                451,
+                489,
+                498,
+                511,
+                518,
+                541
+            ]
+        }
+    },
+    "scrape": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                2,
+                5
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 2,
+            "positions": [
+                2,
+                5
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                2,
+                5
+            ]
+        }
+    },
+    "login": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                6
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                6
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                6
+            ]
+        }
+    },
+    "the": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                7,
+                77,
+                96
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 51,
+            "positions": [
+                31,
+                41,
+                44,
+                50,
+                67,
+                70,
+                73,
+                106,
+                116,
+                119,
+                132,
+                140,
+                145,
+                163,
+                170,
+                191,
+                193,
+                196,
+                223,
+                234,
+                256,
+                265,
+                272,
+                298,
+                331,
+                338,
+                356,
+                359,
+                362,
+                380,
+                386,
+                389,
+                395,
+                407,
+                432,
+                458,
+                465,
+                472,
+                475,
+                482,
+                501,
+                519,
+                533,
+                545,
+                551,
+                557,
+                561,
+                575,
+                580,
+                589,
+                610
+            ]
+        }
+    },
+    "world": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                8,
+                36
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                68,
+                92,
+                504
+            ]
+        }
+    },
+    "as": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                9,
+                71,
+                80
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                566
+            ]
+        }
+    },
+    "we": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                10,
+                45
+            ]
+        }
+    },
+    "have": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                11,
+                196
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                139,
+                179,
+                608
+            ]
+        }
+    },
+    "created": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                12
+            ]
+        }
+    },
+    "it": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 6,
+            "positions": [
+                13,
+                20,
+                37,
+                99,
+                169,
+                229
+            ]
+        }
+    },
+    "is": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 12,
+            "positions": [
+                14,
+                38,
+                70,
+                74,
+                79,
+                83,
+                125,
+                128,
+                170,
+                219,
+                230,
+                246
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                152,
+                202,
+                259
+            ]
+        }
+    },
+    "a": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 10,
+            "positions": [
+                15,
+                75,
+                84,
+                108,
+                151,
+                157,
+                209,
+                217,
+                221,
+                242
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 13,
+            "positions": [
+                83,
+                89,
+                96,
+                124,
+                148,
+                206,
+                219,
+                244,
+                274,
+                429,
+                509,
+                527,
+                567
+            ]
+        }
+    },
+    "process": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                16
+            ]
+        }
+    },
+    "of": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                17,
+                153,
+                159
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 36,
+            "positions": [
+                33,
+                46,
+                72,
+                99,
+                109,
+                121,
+                136,
+                147,
+                157,
+                172,
+                183,
+                189,
+                237,
+                269,
+                276,
+                306,
+                355,
+                358,
+                382,
+                388,
+                397,
+                401,
+                409,
+                423,
+                435,
+                443,
+                454,
+                460,
+                468,
+                474,
+                478,
+                503,
+                522,
+                526,
+                559,
+                582
+            ]
+        }
+    },
+    "our": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 4,
+            "positions": [
+                18,
+                26,
+                39,
+                51
+            ]
+        }
+    },
+    "thinking": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                19,
+                27,
+                35
+            ]
+        }
+    },
+    "cannot": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                21
+            ]
+        }
+    },
+    "be": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 6,
+            "positions": [
+                22,
+                98,
+                112,
+                134,
+                173,
+                181
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                204,
+                413
+            ]
+        }
+    },
+    "changed": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                23
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                66
+            ]
+        }
+    },
+    "without": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                24,
+                244
+            ]
+        }
+    },
+    "changing": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                25
+            ]
+        }
+    },
+    "by": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 12,
+            "positions": [
+                28,
+                53,
+                86,
+                115,
+                140,
+                161,
+                188,
+                207,
+                236,
+                251,
+                274,
+                278
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 2,
+            "positions": [
+                10,
+                14
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 5,
+            "positions": [
+                35,
+                222,
+                310,
+                618,
+                622
+            ]
+        }
+    },
+    "albert": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                29,
+                87,
+                162
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                7,
+                19
+            ]
+        }
+    },
+    "einstein": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                30,
+                88,
+                163
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 9,
+            "positions": [
+                8,
+                20,
+                76,
+                88,
+                254,
+                548,
+                573,
+                585,
+                612
+            ]
+        }
+    },
+    "about": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 10,
+            "positions": [
+                31,
+                56,
+                89,
+                118,
+                143,
+                164,
+                191,
+                211,
+                239,
+                254
+            ]
+        }
+    },
+    "tags": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 11,
+            "positions": [
+                32,
+                57,
+                90,
+                119,
+                144,
+                165,
+                192,
+                212,
+                240,
+                255,
+                262
+            ]
+        }
+    },
+    "change": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                33
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                296
+            ]
+        }
+    },
+    "deepthoughts": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                34
+            ]
+        }
+    },
+    "choices": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                40,
+                59
+            ]
+        }
+    },
+    "harry": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                41
+            ]
+        }
+    },
+    "that": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                42,
+                204
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 5,
+            "positions": [
+                151,
+                155,
+                371,
+                406,
+                532
+            ]
+        }
+    },
+    "show": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                43
+            ]
+        }
+    },
+    "what": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                44,
+                176,
+                184
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                542
+            ]
+        }
+    },
+    "truly": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                46
+            ]
+        }
+    },
+    "are": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 4,
+            "positions": [
+                47,
+                61,
+                178,
+                186
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                187,
+                283
+            ]
+        }
+    },
+    "far": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                48
+            ]
+        }
+    },
+    "more": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                49
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                207,
+                212,
+                263
+            ]
+        }
+    },
+    "than": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                50,
+                137,
+                179
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                264
+            ]
+        }
+    },
+    "abilities": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                52,
+                58
+            ]
+        }
+    },
+    "jk": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                54
+            ]
+        }
+    },
+    "rowling": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                55
+            ]
+        }
+    },
+    "there": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                60
+            ]
+        }
+    },
+    "only": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                62
+            ]
+        }
+    },
+    "two": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                63
+            ]
+        }
+    },
+    "ways": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                64,
+                203
+            ]
+        }
+    },
+    "live": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                66,
+                93
+            ]
+        }
+    },
+    "your": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                67
+            ]
+        }
+    },
+    "life": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 4,
+            "positions": [
+                68,
+                92,
+                193,
+                265
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                238
+            ]
+        }
+    },
+    "one": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                69
+            ]
+        }
+    },
+    "though": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                72,
+                81
+            ]
+        }
+    },
+    "nothing": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                73
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                262
+            ]
+        }
+    },
+    "miracle": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                76,
+                85,
+                94
+            ]
+        }
+    },
+    "other": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                78
+            ]
+        }
+    },
+    "everything": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                82
+            ]
+        }
+    },
+    "inspirational": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 4,
+            "positions": [
+                91,
+                146,
+                215,
+                264
+            ]
+        }
+    },
+    "miracles": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                95
+            ]
+        }
+    },
+    "person": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                97
+            ]
+        }
+    },
+    "gentleman": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                100
+            ]
+        }
+    },
+    "or": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                101
+            ]
+        }
+    },
+    "lady": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                102
+            ]
+        }
+    },
+    "who": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                103
+            ]
+        }
+    },
+    "has": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                104
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                328
+            ]
+        }
+    },
+    "not": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 4,
+            "positions": [
+                105,
+                148,
+                187,
+                197
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                495
+            ]
+        }
+    },
+    "pleasure": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                106
+            ]
+        }
+    },
+    "in": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                107,
+                233
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 19,
+            "positions": [
+                13,
+                17,
+                23,
+                53,
+                64,
+                86,
+                128,
+                162,
+                169,
+                174,
+                198,
+                230,
+                243,
+                342,
+                366,
+                425,
+                491,
+                594,
+                601
+            ]
+        }
+    },
+    "good": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                109
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                134,
+                192
+            ]
+        }
+    },
+    "novel": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                110
+            ]
+        }
+    },
+    "must": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                111
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                138
+            ]
+        }
+    },
+    "intolerably": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                113
+            ]
+        }
+    },
+    "stupid": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                114
+            ]
+        }
+    },
+    "jane": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                116
+            ]
+        }
+    },
+    "austen": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                117
+            ]
+        }
+    },
+    "aliteracy": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                120
+            ]
+        }
+    },
+    "books": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                121,
+                267
+            ]
+        }
+    },
+    "classic": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                122
+            ]
+        }
+    },
+    "humor": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 3,
+            "positions": [
+                123,
+                256,
+                266
+            ]
+        }
+    },
+    "imperfection": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                124
+            ]
+        }
+    },
+    "beauty": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                126
+            ]
+        }
+    },
+    "madness": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                127
+            ]
+        }
+    },
+    "genius": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                129
+            ]
+        }
+    },
+    "and": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                130
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 13,
+            "positions": [
+                102,
+                159,
+                195,
+                217,
+                228,
+                267,
+                350,
+                418,
+                446,
+                457,
+                493,
+                530,
+                606
+            ]
+        }
+    },
+    "its": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                131,
+                232
+            ]
+        }
+    },
+    "better": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                132,
+                171
+            ]
+        }
+    },
+    "absolutely": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                135,
+                138
+            ]
+        }
+    },
+    "ridiculous": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                136
+            ]
+        }
+    },
+    "boring": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                139
+            ]
+        }
+    },
+    "marilyn": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                141
+            ]
+        }
+    },
+    "monroe": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                142
+            ]
+        }
+    },
+    "beyourself": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                145
+            ]
+        }
+    },
+    "try": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                147
+            ]
+        }
+    },
+    "become": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                150,
+                156
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                544
+            ]
+        }
+    },
+    "man": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                152,
+                158
+            ]
+        }
+    },
+    "success": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                154,
+                167
+            ]
+        }
+    },
+    "rather": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                155
+            ]
+        }
+    },
+    "value": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                160,
+                168
+            ]
+        }
+    },
+    "adulthood": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                166
+            ]
+        }
+    },
+    "hated": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                174
+            ]
+        }
+    },
+    "for": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                175,
+                183
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 7,
+            "positions": [
+                131,
+                260,
+                294,
+                320,
+                344,
+                352,
+                591
+            ]
+        }
+    },
+    "you": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 4,
+            "positions": [
+                177,
+                185,
+                224,
+                248
+            ]
+        }
+    },
+    "loved": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                182
+            ]
+        }
+    },
+    "andr\u00e9": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                189
+            ]
+        }
+    },
+    "gide": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                190
+            ]
+        }
+    },
+    "love": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                194,
+                263
+            ]
+        }
+    },
+    "i": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                195
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                94
+            ]
+        }
+    },
+    "failed": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                198
+            ]
+        }
+    },
+    "ive": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                199
+            ]
+        }
+    },
+    "just": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                200
+            ]
+        }
+    },
+    "found": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                201
+            ]
+        }
+    },
+    "10000": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                202
+            ]
+        }
+    },
+    "wont": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                205
+            ]
+        }
+    },
+    "work": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                206
+            ]
+        }
+    },
+    "thomas": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                208
+            ]
+        }
+    },
+    "edison": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                210,
+                213
+            ]
+        }
+    },
+    "failure": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                214
+            ]
+        }
+    },
+    "paraphrased": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                216
+            ]
+        }
+    },
+    "woman": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                218
+            ]
+        }
+    },
+    "like": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                220,
+                247
+            ]
+        }
+    },
+    "tea": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                222
+            ]
+        }
+    },
+    "bag": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                223
+            ]
+        }
+    },
+    "never": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                225
+            ]
+        }
+    },
+    "know": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                226,
+                249
+            ]
+        }
+    },
+    "how": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                227
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                291
+            ]
+        }
+    },
+    "strong": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                228
+            ]
+        }
+    },
+    "until": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                231
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                598
+            ]
+        }
+    },
+    "hot": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                234
+            ]
+        }
+    },
+    "water": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                235
+            ]
+        }
+    },
+    "eleanor": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                237
+            ]
+        }
+    },
+    "roosevelt": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                238
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                515
+            ]
+        }
+    },
+    "misattributedeleanorroosevelt": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                241
+            ]
+        }
+    },
+    "day": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                243
+            ]
+        }
+    },
+    "sunshine": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                245
+            ]
+        }
+    },
+    "night": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                250
+            ]
+        }
+    },
+    "steve": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                252
+            ]
+        }
+    },
+    "martin": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                253
+            ]
+        }
+    },
+    "obvious": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                257
+            ]
+        }
+    },
+    "simile": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                258,
+                272
+            ]
+        }
+    },
+    "next": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                259
+            ]
+        }
+    },
+    "top": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                260
+            ]
+        }
+    },
+    "ten": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                261
+            ]
+        }
+    },
+    "reading": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                268
+            ]
+        }
+    },
+    "friendship": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                269
+            ]
+        }
+    },
+    "friends": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                270
+            ]
+        }
+    },
+    "truth": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                271
+            ]
+        }
+    },
+    "goodreadscom": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                275
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                11
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                619
+            ]
+        }
+    },
+    "made": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                276
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                12
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                77,
+                609,
+                620
+            ]
+        }
+    },
+    "with": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                277
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                13
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 7,
+            "positions": [
+                385,
+                419,
+                441,
+                570,
+                588,
+                614,
+                621
+            ]
+        }
+    },
+    "zyte": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                279
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                15
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                623
+            ]
+        }
+    },
+    "username": {
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                7
+            ]
+        }
+    },
+    "password": {
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                8
+            ]
+        }
+    },
+    "born": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                9,
+                22
+            ]
+        }
+    },
+    "march": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                10
+            ]
+        }
+    },
+    "14": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                11
+            ]
+        }
+    },
+    "1879": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                12,
+                18
+            ]
+        }
+    },
+    "ulm": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                14,
+                24
+            ]
+        }
+    },
+    "germany": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                15,
+                25,
+                499
+            ]
+        }
+    },
+    "description": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                16
+            ]
+        }
+    },
+    "was": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 5,
+            "positions": [
+                21,
+                364,
+                374,
+                480,
+                586
+            ]
+        }
+    },
+    "he": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 9,
+            "positions": [
+                26,
+                104,
+                126,
+                336,
+                403,
+                427,
+                437,
+                462,
+                507
+            ]
+        }
+    },
+    "completed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                27
+            ]
+        }
+    },
+    "his": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 11,
+            "positions": [
+                28,
+                37,
+                55,
+                79,
+                321,
+                345,
+                353,
+                398,
+                420,
+                452,
+                599
+            ]
+        }
+    },
+    "phd": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                29
+            ]
+        }
+    },
+    "at": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                30
+            ]
+        }
+    },
+    "university": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                32
+            ]
+        }
+    },
+    "zurich": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                34
+            ]
+        }
+    },
+    "1909": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                36
+            ]
+        }
+    },
+    "1905": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                38,
+                65
+            ]
+        }
+    },
+    "paper": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                39,
+                57,
+                430
+            ]
+        }
+    },
+    "explaining": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                40
+            ]
+        }
+    },
+    "photoelectric": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                42,
+                360
+            ]
+        }
+    },
+    "effect": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                43,
+                361
+            ]
+        }
+    },
+    "basis": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                45
+            ]
+        }
+    },
+    "electronics": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                47
+            ]
+        }
+    },
+    "earned": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                48
+            ]
+        }
+    },
+    "him": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                49,
+                517
+            ]
+        }
+    },
+    "nobel": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                51,
+                340
+            ]
+        }
+    },
+    "prize": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                52,
+                341
+            ]
+        }
+    },
+    "1921": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                54,
+                339
+            ]
+        }
+    },
+    "first": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                56
+            ]
+        }
+    },
+    "on": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 4,
+            "positions": [
+                58,
+                225,
+                431,
+                500
+            ]
+        }
+    },
+    "special": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                59,
+                399
+            ]
+        }
+    },
+    "relativity": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 4,
+            "positions": [
+                60,
+                402,
+                410,
+                436
+            ]
+        }
+    },
+    "theory": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 7,
+            "positions": [
+                61,
+                400,
+                422,
+                434,
+                448,
+                456,
+                477
+            ]
+        }
+    },
+    "also": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                62,
+                412,
+                463
+            ]
+        }
+    },
+    "published": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                63,
+                221,
+                428
+            ]
+        }
+    },
+    "after": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                69
+            ]
+        }
+    },
+    "rise": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                71
+            ]
+        }
+    },
+    "nazi": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                74
+            ]
+        }
+    },
+    "party": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                75
+            ]
+        }
+    },
+    "princeton": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                78,
+                595
+            ]
+        }
+    },
+    "permanent": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                80
+            ]
+        }
+    },
+    "home": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                81
+            ]
+        }
+    },
+    "becoming": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                82
+            ]
+        }
+    },
+    "us": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                84,
+                534
+            ]
+        }
+    },
+    "citizen": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                85
+            ]
+        }
+    },
+    "1940": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                87
+            ]
+        }
+    },
+    "pacifist": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                90
+            ]
+        }
+    },
+    "during": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                91
+            ]
+        }
+    },
+    "war": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                93,
+                505
+            ]
+        }
+    },
+    "stayed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                95
+            ]
+        }
+    },
+    "firm": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                97
+            ]
+        }
+    },
+    "proponent": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                98
+            ]
+        }
+    },
+    "social": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                100
+            ]
+        }
+    },
+    "justice": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                101
+            ]
+        }
+    },
+    "responsibility": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                103
+            ]
+        }
+    },
+    "chaired": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                105
+            ]
+        }
+    },
+    "emergency": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                107
+            ]
+        }
+    },
+    "committee": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                108
+            ]
+        }
+    },
+    "atomic": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                110,
+                122
+            ]
+        }
+    },
+    "scientists": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                111
+            ]
+        }
+    },
+    "which": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 8,
+            "positions": [
+                112,
+                161,
+                186,
+                282,
+                327,
+                449,
+                470,
+                578
+            ]
+        }
+    },
+    "organized": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                113
+            ]
+        }
+    },
+    "alert": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                115
+            ]
+        }
+    },
+    "public": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                117
+            ]
+        }
+    },
+    "dangers": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                120
+            ]
+        }
+    },
+    "warfareat": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                123
+            ]
+        }
+    },
+    "symposium": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                125,
+                220
+            ]
+        }
+    },
+    "advised": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                127
+            ]
+        }
+    },
+    "their": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                129,
+                175,
+                231
+            ]
+        }
+    },
+    "struggle": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                130
+            ]
+        }
+    },
+    "ethical": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                133
+            ]
+        }
+    },
+    "teachers": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                135
+            ]
+        }
+    },
+    "religion": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 4,
+            "positions": [
+                137,
+                218,
+                229,
+                307
+            ]
+        }
+    },
+    "stature": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                141
+            ]
+        }
+    },
+    "give": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                143,
+                153
+            ]
+        }
+    },
+    "up": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                144,
+                154
+            ]
+        }
+    },
+    "doctrine": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                146
+            ]
+        }
+    },
+    "personal": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                149
+            ]
+        }
+    },
+    "god": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                150,
+                258
+            ]
+        }
+    },
+    "source": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                156
+            ]
+        }
+    },
+    "fear": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                158
+            ]
+        }
+    },
+    "hope": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                160
+            ]
+        }
+    },
+    "past": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                164
+            ]
+        }
+    },
+    "placed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                165
+            ]
+        }
+    },
+    "such": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                166
+            ]
+        }
+    },
+    "vast": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                167
+            ]
+        }
+    },
+    "power": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                168,
+                490
+            ]
+        }
+    },
+    "hands": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                171
+            ]
+        }
+    },
+    "priests": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                173
+            ]
+        }
+    },
+    "labors": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                176
+            ]
+        }
+    },
+    "they": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                177
+            ]
+        }
+    },
+    "will": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                178
+            ]
+        }
+    },
+    "avail": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                181
+            ]
+        }
+    },
+    "themselves": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                182
+            ]
+        }
+    },
+    "those": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                184
+            ]
+        }
+    },
+    "forces": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                185,
+                553
+            ]
+        }
+    },
+    "capable": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                188
+            ]
+        }
+    },
+    "cultivating": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                190
+            ]
+        }
+    },
+    "true": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                194
+            ]
+        }
+    },
+    "beautiful": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                197
+            ]
+        }
+    },
+    "humanity": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                199
+            ]
+        }
+    },
+    "itself": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                200
+            ]
+        }
+    },
+    "this": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 4,
+            "positions": [
+                201,
+                297,
+                392,
+                538
+            ]
+        }
+    },
+    "sure": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                205
+            ]
+        }
+    },
+    "difficult": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                208
+            ]
+        }
+    },
+    "but": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                209,
+                278,
+                554
+            ]
+        }
+    },
+    "an": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                210
+            ]
+        }
+    },
+    "incomparably": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                211
+            ]
+        }
+    },
+    "worthy": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                213
+            ]
+        }
+    },
+    "task": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                214
+            ]
+        }
+    },
+    "science": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                215,
+                226
+            ]
+        }
+    },
+    "philosophy": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                216,
+                227
+            ]
+        }
+    },
+    "conference": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                224
+            ]
+        }
+    },
+    "relation": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                232
+            ]
+        }
+    },
+    "democratic": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                235
+            ]
+        }
+    },
+    "way": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                236
+            ]
+        }
+    },
+    "inc": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                239
+            ]
+        }
+    },
+    "new": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                240,
+                528,
+                596
+            ]
+        }
+    },
+    "york": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                241
+            ]
+        }
+    },
+    "1941": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                242
+            ]
+        }
+    },
+    "letter": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                245,
+                303,
+                510
+            ]
+        }
+    },
+    "philosopher": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                247
+            ]
+        }
+    },
+    "eric": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                248
+            ]
+        }
+    },
+    "gutkind": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                249
+            ]
+        }
+    },
+    "dated": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                250
+            ]
+        }
+    },
+    "jan": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                251
+            ]
+        }
+    },
+    "3": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                252
+            ]
+        }
+    },
+    "1954": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                253
+            ]
+        }
+    },
+    "stated": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                255
+            ]
+        }
+    },
+    "word": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                257,
+                611
+            ]
+        }
+    },
+    "me": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                261,
+                295
+            ]
+        }
+    },
+    "expression": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                266
+            ]
+        }
+    },
+    "product": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                268
+            ]
+        }
+    },
+    "human": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                270
+            ]
+        }
+    },
+    "weaknesses": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                271
+            ]
+        }
+    },
+    "bible": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                273
+            ]
+        }
+    },
+    "collection": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                275
+            ]
+        }
+    },
+    "honorable": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                277
+            ]
+        }
+    },
+    "still": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                279
+            ]
+        }
+    },
+    "primitive": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                280
+            ]
+        }
+    },
+    "legends": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                281
+            ]
+        }
+    },
+    "nevertheless": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                284
+            ]
+        }
+    },
+    "pretty": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                285
+            ]
+        }
+    },
+    "childish": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                286,
+                300
+            ]
+        }
+    },
+    "no": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                287,
+                289,
+                375
+            ]
+        }
+    },
+    "interpretation": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                288
+            ]
+        }
+    },
+    "matter": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                290
+            ]
+        }
+    },
+    "subtle": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                292
+            ]
+        }
+    },
+    "can": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                293
+            ]
+        }
+    },
+    "guardian": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                299
+            ]
+        }
+    },
+    "superstition": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                301
+            ]
+        }
+    },
+    "einsteins": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                302
+            ]
+        }
+    },
+    "makes": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                304
+            ]
+        }
+    },
+    "view": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                305
+            ]
+        }
+    },
+    "relatively": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                308
+            ]
+        }
+    },
+    "clear": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                309
+            ]
+        }
+    },
+    "james": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                311
+            ]
+        }
+    },
+    "randerson": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                312
+            ]
+        }
+    },
+    "may": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                313
+            ]
+        }
+    },
+    "13": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                314
+            ]
+        }
+    },
+    "2008": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                315
+            ]
+        }
+    },
+    "d": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                316,
+                514
+            ]
+        }
+    },
+    "1955while": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                317
+            ]
+        }
+    },
+    "best": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                318
+            ]
+        }
+    },
+    "known": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                319
+            ]
+        }
+    },
+    "massenergy": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                322
+            ]
+        }
+    },
+    "equivalence": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                323
+            ]
+        }
+    },
+    "formula": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                324
+            ]
+        }
+    },
+    "e": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                325
+            ]
+        }
+    },
+    "mc2": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                326
+            ]
+        }
+    },
+    "been": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                329
+            ]
+        }
+    },
+    "dubbed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                330
+            ]
+        }
+    },
+    "worlds": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                332
+            ]
+        }
+    },
+    "most": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                333
+            ]
+        }
+    },
+    "famous": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                334
+            ]
+        }
+    },
+    "equation": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                335
+            ]
+        }
+    },
+    "received": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                337
+            ]
+        }
+    },
+    "physics": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                343,
+                349
+            ]
+        }
+    },
+    "services": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                346
+            ]
+        }
+    },
+    "theoretical": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                348
+            ]
+        }
+    },
+    "especially": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                351
+            ]
+        }
+    },
+    "discovery": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                354
+            ]
+        }
+    },
+    "law": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                357
+            ]
+        }
+    },
+    "latter": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                363
+            ]
+        }
+    },
+    "pivotal": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                365
+            ]
+        }
+    },
+    "establishing": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                367
+            ]
+        }
+    },
+    "quantum": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                368,
+                447
+            ]
+        }
+    },
+    "theoryeinstein": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                369
+            ]
+        }
+    },
+    "thought": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                370
+            ]
+        }
+    },
+    "newtonion": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                372
+            ]
+        }
+    },
+    "mechanics": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                373,
+                384,
+                445
+            ]
+        }
+    },
+    "longer": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                376
+            ]
+        }
+    },
+    "enough": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                377
+            ]
+        }
+    },
+    "reconcile": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                379
+            ]
+        }
+    },
+    "laws": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                381,
+                387
+            ]
+        }
+    },
+    "classical": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                383
+            ]
+        }
+    },
+    "electromagnetic": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                390
+            ]
+        }
+    },
+    "field": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                391
+            ]
+        }
+    },
+    "led": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                393,
+                450,
+                540
+            ]
+        }
+    },
+    "development": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                396,
+                521
+            ]
+        }
+    },
+    "realized": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                404
+            ]
+        }
+    },
+    "however": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                405
+            ]
+        }
+    },
+    "principle": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                408
+            ]
+        }
+    },
+    "could": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                411
+            ]
+        }
+    },
+    "extended": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                414
+            ]
+        }
+    },
+    "gravitational": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                416
+            ]
+        }
+    },
+    "fields": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                417
+            ]
+        }
+    },
+    "subsequent": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                421
+            ]
+        }
+    },
+    "gravitation": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                424
+            ]
+        }
+    },
+    "1916": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                426
+            ]
+        }
+    },
+    "general": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                433
+            ]
+        }
+    },
+    "continued": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                438
+            ]
+        }
+    },
+    "deal": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                440
+            ]
+        }
+    },
+    "problems": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                442
+            ]
+        }
+    },
+    "statistical": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                444
+            ]
+        }
+    },
+    "explanations": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                453
+            ]
+        }
+    },
+    "particle": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                455
+            ]
+        }
+    },
+    "motion": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                459
+            ]
+        }
+    },
+    "molecules": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                461
+            ]
+        }
+    },
+    "investigated": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                464
+            ]
+        }
+    },
+    "thermal": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                466
+            ]
+        }
+    },
+    "properties": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                467
+            ]
+        }
+    },
+    "light": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                469
+            ]
+        }
+    },
+    "laid": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                471
+            ]
+        }
+    },
+    "foundation": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                473
+            ]
+        }
+    },
+    "photon": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                476
+            ]
+        }
+    },
+    "lighthe": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                479
+            ]
+        }
+    },
+    "visiting": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                481
+            ]
+        }
+    },
+    "united": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                483
+            ]
+        }
+    },
+    "states": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                484
+            ]
+        }
+    },
+    "when": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                485
+            ]
+        }
+    },
+    "adolf": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                486
+            ]
+        }
+    },
+    "hitler": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                487
+            ]
+        }
+    },
+    "came": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                488
+            ]
+        }
+    },
+    "1933": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                492
+            ]
+        }
+    },
+    "did": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                494
+            ]
+        }
+    },
+    "go": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                496
+            ]
+        }
+    },
+    "back": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                497
+            ]
+        }
+    },
+    "eve": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                502
+            ]
+        }
+    },
+    "ii": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                506
+            ]
+        }
+    },
+    "endorsed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                508
+            ]
+        }
+    },
+    "president": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                512
+            ]
+        }
+    },
+    "franklin": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                513
+            ]
+        }
+    },
+    "alerting": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                516
+            ]
+        }
+    },
+    "potential": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                520
+            ]
+        }
+    },
+    "extremely": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                523
+            ]
+        }
+    },
+    "powerful": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                524
+            ]
+        }
+    },
+    "bombs": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                525
+            ]
+        }
+    },
+    "type": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                529
+            ]
+        }
+    },
+    "recommending": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                531
+            ]
+        }
+    },
+    "begin": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                535
+            ]
+        }
+    },
+    "similar": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                536
+            ]
+        }
+    },
+    "research": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                537
+            ]
+        }
+    },
+    "eventually": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                539
+            ]
+        }
+    },
+    "would": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                543
+            ]
+        }
+    },
+    "manhattan": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                546
+            ]
+        }
+    },
+    "project": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                547
+            ]
+        }
+    },
+    "supported": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                549
+            ]
+        }
+    },
+    "defending": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                550
+            ]
+        }
+    },
+    "allied": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                552
+            ]
+        }
+    },
+    "largely": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                555
+            ]
+        }
+    },
+    "denounced": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                556
+            ]
+        }
+    },
+    "idea": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                558
+            ]
+        }
+    },
+    "using": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                560
+            ]
+        }
+    },
+    "newly": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                562
+            ]
+        }
+    },
+    "discovered": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                563
+            ]
+        }
+    },
+    "nuclear": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                564,
+                583
+            ]
+        }
+    },
+    "fission": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                565
+            ]
+        }
+    },
+    "weapon": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                568
+            ]
+        }
+    },
+    "later": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                569
+            ]
+        }
+    },
+    "bertrand": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                571
+            ]
+        }
+    },
+    "russell": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                572
+            ]
+        }
+    },
+    "signed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                574
+            ]
+        }
+    },
+    "russelleinstein": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                576
+            ]
+        }
+    },
+    "manifesto": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                577
+            ]
+        }
+    },
+    "highlighted": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                579
+            ]
+        }
+    },
+    "danger": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                581
+            ]
+        }
+    },
+    "weapons": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                584
+            ]
+        }
+    },
+    "affiliated": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                587
+            ]
+        }
+    },
+    "institute": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                590
+            ]
+        }
+    },
+    "advanced": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                592
+            ]
+        }
+    },
+    "study": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                593
+            ]
+        }
+    },
+    "jersey": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                597
+            ]
+        }
+    },
+    "death": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                600
+            ]
+        }
+    },
+    "1955his": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                602
+            ]
+        }
+    },
+    "great": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                603
+            ]
+        }
+    },
+    "intellectual": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                604
+            ]
+        }
+    },
+    "achievements": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                605
+            ]
+        }
+    },
+    "originality": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                607
+            ]
+        }
+    },
+    "synonymous": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                613
+            ]
+        }
+    },
+    "geniusmore": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                615
+            ]
+        }
+    },
+    "httpenwikipediaorgwikialbert_ehttpwwwnobelprizeorgnobel_prize": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                616
+            ]
+        }
+    }
+}

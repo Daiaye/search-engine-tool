@@ -1,11 +1,15 @@
 import sys
 import json
+import os
+from crawler import crawl_website
+
+INDEX_FILE_PATH = os.path.join("data", "index.json")
 
 def main():
     print("Welcome to the COMP3011 Search Engine Tool")
     print("Available commands: build, load, print <word>, find <query...>, exit")
     
-    # This variable will hold your index in memory once loaded
+    # This variable will hold the index in memory once loaded
     current_index = None
 
     # The main shell loop
@@ -24,9 +28,17 @@ def main():
 
             # 3. Route the command
             if command == "build":
-                # print("Crawling https://quotes.toscrape.com/ and building the index...")
-                # print("Index built and saved to...")
-                print("Not implemented")
+                print("Crawling https://quotes.toscrape.com/ and building the index...")
+                current_index = crawl_website("https://quotes.toscrape.com/")
+
+                # Ensure the data folder exists before saving
+                os.makedirs(os.path.dirname(INDEX_FILE_PATH), exist_ok=True)
+
+                # Save index to disk
+                with open(INDEX_FILE_PATH, "w", encoding="utf-8") as f:
+                    json.dump(current_index, f, indent=4)
+
+                print(f"Index built and saved to {INDEX_FILE_PATH}")
 
             elif command == "load":
                 # print("Loading index from file system...")
