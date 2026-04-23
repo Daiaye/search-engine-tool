@@ -41,8 +41,14 @@ def main():
                 print(f"Index built and saved to {INDEX_FILE_PATH}")
 
             elif command == "load":
-                # print("Loading index from file system...")
-                print("Not implemented")
+                print("Loading index from file system...")
+                
+                if os.path.exists(INDEX_FILE_PATH):
+                    with open(INDEX_FILE_PATH, "r", encoding="utf-8") as f:
+                        current_index = json.load(f)
+                    print(f"Index loaded successfully! Your search engine knows {len(current_index)} unique words.")
+                else:
+                    print("Error: No saved index found. Please run 'build' first.")
 
             elif command == "print":
                 if not args:
