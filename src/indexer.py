@@ -9,7 +9,7 @@ def clean_text(soup: BeautifulSoup):
     text = soup.get_text(separator=" ", strip=True).lower()
     
     # Remove punctuation with regex
-    cleaned_string = re.sub(r'[^\w\s]', '', text).strip()
+    cleaned_string = re.sub(r'[^\w\s]', ' ', text).strip()
     words_list = cleaned_string.split()
 
     return words_list

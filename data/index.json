@@ -5,7 +5,7 @@
             "positions": [
                 0,
                 3,
-                273
+                283
             ]
         },
         "https://quotes.toscrape.com/login": {
@@ -21,7 +21,7 @@
             "positions": [
                 0,
                 3,
-                617
+                640
             ]
         }
     },
@@ -31,11 +31,11 @@
             "positions": [
                 1,
                 4,
-                65,
-                133,
-                149,
-                172,
-                180
+                67,
+                136,
+                153,
+                176,
+                184
             ]
         },
         "https://quotes.toscrape.com/login": {
@@ -50,24 +50,24 @@
             "positions": [
                 1,
                 4,
-                114,
-                118,
-                142,
-                180,
-                203,
-                233,
-                246,
-                347,
-                378,
-                394,
-                415,
-                439,
-                451,
-                489,
+                116,
+                120,
+                145,
+                183,
+                206,
+                236,
+                249,
+                354,
+                386,
+                402,
+                423,
+                447,
+                459,
                 498,
-                511,
-                518,
-                541
+                507,
+                520,
+                527,
+                551
             ]
         }
     },
@@ -119,64 +119,64 @@
             "frequency": 3,
             "positions": [
                 7,
-                77,
-                96
+                79,
+                98
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 51,
             "positions": [
-                31,
-                41,
-                44,
-                50,
-                67,
-                70,
-                73,
-                106,
-                116,
-                119,
-                132,
-                140,
-                145,
-                163,
-                170,
-                191,
-                193,
+                32,
+                42,
+                45,
+                51,
+                68,
+                71,
+                74,
+                108,
+                118,
+                121,
+                135,
+                143,
+                148,
+                166,
+                173,
+                194,
                 196,
-                223,
-                234,
-                256,
-                265,
-                272,
-                298,
-                331,
-                338,
-                356,
-                359,
-                362,
-                380,
-                386,
-                389,
-                395,
-                407,
-                432,
-                458,
-                465,
-                472,
-                475,
-                482,
-                501,
-                519,
-                533,
-                545,
-                551,
-                557,
+                199,
+                226,
+                237,
+                259,
+                268,
+                275,
+                301,
+                337,
+                345,
+                363,
+                366,
+                369,
+                388,
+                394,
+                397,
+                403,
+                415,
+                440,
+                466,
+                473,
+                480,
+                483,
+                491,
+                510,
+                528,
+                542,
+                555,
                 561,
-                575,
-                580,
-                589,
-                610
+                567,
+                571,
+                585,
+                591,
+                600,
+                622
             ]
         }
     },
@@ -185,15 +185,16 @@
             "frequency": 2,
             "positions": [
                 8,
-                36
+                37
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 3,
+            "frequency": 4,
             "positions": [
-                68,
-                92,
-                504
+                69,
+                94,
+                338,
+                513
             ]
         }
     },
@@ -202,14 +203,14 @@
             "frequency": 3,
             "positions": [
                 9,
-                71,
-                80
+                73,
+                82
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                566
+                576
             ]
         }
     },
@@ -218,7 +219,7 @@
             "frequency": 2,
             "positions": [
                 10,
-                45
+                46
             ]
         }
     },
@@ -227,15 +228,15 @@
             "frequency": 2,
             "positions": [
                 11,
-                196
+                200
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                139,
-                179,
-                608
+                142,
+                182,
+                620
             ]
         }
     },
@@ -249,14 +250,16 @@
     },
     "it": {
         "https://quotes.toscrape.com/": {
-            "frequency": 6,
+            "frequency": 8,
             "positions": [
                 13,
                 20,
-                37,
-                99,
-                169,
-                229
+                38,
+                101,
+                133,
+                173,
+                236,
+                239
             ]
         }
     },
@@ -265,25 +268,25 @@
             "frequency": 12,
             "positions": [
                 14,
-                38,
-                70,
-                74,
-                79,
-                83,
-                125,
-                128,
-                170,
-                219,
-                230,
-                246
+                39,
+                72,
+                76,
+                81,
+                85,
+                127,
+                130,
+                174,
+                226,
+                237,
+                256
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                152,
-                202,
-                259
+                155,
+                205,
+                262
             ]
         }
     },
@@ -292,33 +295,33 @@
             "frequency": 10,
             "positions": [
                 15,
-                75,
-                84,
-                108,
-                151,
-                157,
-                209,
-                217,
-                221,
-                242
+                77,
+                86,
+                110,
+                155,
+                161,
+                216,
+                224,
+                228,
+                252
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 13,
             "positions": [
-                83,
-                89,
-                96,
-                124,
-                148,
-                206,
-                219,
-                244,
-                274,
-                429,
-                509,
-                527,
-                567
+                84,
+                91,
+                98,
+                127,
+                151,
+                209,
+                222,
+                247,
+                277,
+                437,
+                518,
+                536,
+                577
             ]
         }
     },
@@ -335,49 +338,49 @@
             "frequency": 3,
             "positions": [
                 17,
-                153,
-                159
+                157,
+                163
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 36,
             "positions": [
-                33,
-                46,
-                72,
-                99,
-                109,
-                121,
-                136,
-                147,
-                157,
-                172,
-                183,
-                189,
-                237,
-                269,
-                276,
-                306,
-                355,
-                358,
-                382,
-                388,
-                397,
-                401,
+                34,
+                47,
+                73,
+                101,
+                111,
+                123,
+                139,
+                150,
+                160,
+                175,
+                186,
+                192,
+                240,
+                272,
+                279,
+                310,
+                362,
+                365,
+                390,
+                396,
+                405,
                 409,
-                423,
-                435,
+                417,
+                431,
                 443,
-                454,
-                460,
+                451,
+                462,
                 468,
-                474,
-                478,
-                503,
-                522,
-                526,
-                559,
-                582
+                476,
+                482,
+                486,
+                512,
+                531,
+                535,
+                569,
+                593
             ]
         }
     },
@@ -387,8 +390,8 @@
             "positions": [
                 18,
                 26,
-                39,
-                51
+                40,
+                52
             ]
         }
     },
@@ -398,7 +401,7 @@
             "positions": [
                 19,
                 27,
-                35
+                36
             ]
         }
     },
@@ -412,21 +415,22 @@
     },
     "be": {
         "https://quotes.toscrape.com/": {
-            "frequency": 6,
+            "frequency": 7,
             "positions": [
                 22,
-                98,
-                112,
-                134,
-                173,
-                181
+                100,
+                114,
+                137,
+                148,
+                177,
+                185
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                204,
-                413
+                207,
+                421
             ]
         }
     },
@@ -440,7 +444,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                66
+                67
             ]
         }
     },
@@ -449,7 +453,7 @@
             "frequency": 2,
             "positions": [
                 24,
-                244
+                254
             ]
         }
     },
@@ -466,34 +470,34 @@
             "frequency": 12,
             "positions": [
                 28,
-                53,
-                86,
-                115,
-                140,
-                161,
-                188,
-                207,
-                236,
-                251,
-                274,
-                278
+                54,
+                88,
+                117,
+                143,
+                165,
+                192,
+                214,
+                244,
+                261,
+                284,
+                289
             ]
         },
         "https://quotes.toscrape.com/login": {
             "frequency": 2,
             "positions": [
                 10,
-                14
+                15
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 5,
             "positions": [
-                35,
-                222,
-                310,
-                618,
-                622
+                36,
+                225,
+                314,
+                641,
+                646
             ]
         }
     },
@@ -502,8 +506,8 @@
             "frequency": 3,
             "positions": [
                 29,
-                87,
-                162
+                89,
+                166
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
@@ -519,22 +523,25 @@
             "frequency": 3,
             "positions": [
                 30,
-                88,
-                163
+                90,
+                167
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 9,
+            "frequency": 12,
             "positions": [
                 8,
                 20,
-                76,
-                88,
-                254,
-                548,
-                573,
-                585,
-                612
+                77,
+                90,
+                257,
+                305,
+                377,
+                558,
+                583,
+                587,
+                596,
+                624
             ]
         }
     },
@@ -543,15 +550,15 @@
             "frequency": 10,
             "positions": [
                 31,
-                56,
-                89,
-                118,
-                143,
-                164,
-                191,
-                211,
-                239,
-                254
+                58,
+                91,
+                120,
+                146,
+                168,
+                195,
+                218,
+                247,
+                264
             ]
         }
     },
@@ -560,16 +567,16 @@
             "frequency": 11,
             "positions": [
                 32,
-                57,
-                90,
-                119,
-                144,
-                165,
-                192,
-                212,
-                240,
-                255,
-                262
+                59,
+                92,
+                121,
+                147,
+                169,
+                196,
+                219,
+                248,
+                265,
+                272
             ]
         }
     },
@@ -583,11 +590,11 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                296
+                299
             ]
         }
     },
-    "deepthoughts": {
+    "deep": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -595,12 +602,20 @@
             ]
         }
     },
+    "thoughts": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                35
+            ]
+        }
+    },
     "choices": {
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                40,
-                59
+                41,
+                61
             ]
         }
     },
@@ -608,7 +623,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                41
+                42
             ]
         }
     },
@@ -616,18 +631,18 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                42,
-                204
+                43,
+                210
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 5,
             "positions": [
-                151,
-                155,
-                371,
-                406,
-                532
+                154,
+                158,
+                379,
+                414,
+                541
             ]
         }
     },
@@ -635,7 +650,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                43
+                44
             ]
         }
     },
@@ -643,15 +658,15 @@
         "https://quotes.toscrape.com/": {
             "frequency": 3,
             "positions": [
-                44,
-                176,
-                184
+                45,
+                180,
+                188
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                542
+                552
             ]
         }
     },
@@ -659,7 +674,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                46
+                47
             ]
         }
     },
@@ -667,17 +682,17 @@
         "https://quotes.toscrape.com/": {
             "frequency": 4,
             "positions": [
-                47,
-                61,
-                178,
-                186
+                48,
+                63,
+                182,
+                190
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                187,
-                283
+                190,
+                286
             ]
         }
     },
@@ -685,7 +700,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                48
+                49
             ]
         }
     },
@@ -693,15 +708,16 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                49
+                50
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 3,
+            "frequency": 4,
             "positions": [
-                207,
-                212,
-                263
+                210,
+                215,
+                266,
+                628
             ]
         }
     },
@@ -709,15 +725,15 @@
         "https://quotes.toscrape.com/": {
             "frequency": 3,
             "positions": [
-                50,
-                137,
-                179
+                51,
+                140,
+                183
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                264
+                267
             ]
         }
     },
@@ -725,20 +741,12 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                52,
-                58
+                53,
+                60
             ]
         }
     },
-    "jk": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                54
-            ]
-        }
-    },
-    "rowling": {
+    "j": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -746,15 +754,23 @@
             ]
         }
     },
-    "there": {
+    "k": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                60
+                56
             ]
         }
     },
-    "only": {
+    "rowling": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                57
+            ]
+        }
+    },
+    "there": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -762,11 +778,19 @@
             ]
         }
     },
+    "only": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                64
+            ]
+        }
+    },
     "two": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                63
+                65
             ]
         }
     },
@@ -774,8 +798,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                64,
-                203
+                66,
+                209
             ]
         }
     },
@@ -783,8 +807,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                66,
-                93
+                68,
+                95
             ]
         }
     },
@@ -792,7 +816,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                67
+                69
             ]
         }
     },
@@ -800,16 +824,16 @@
         "https://quotes.toscrape.com/": {
             "frequency": 4,
             "positions": [
-                68,
-                92,
-                193,
-                265
+                70,
+                94,
+                197,
+                275
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                238
+                241
             ]
         }
     },
@@ -817,7 +841,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                69
+                71
             ]
         }
     },
@@ -825,8 +849,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                72,
-                81
+                74,
+                83
             ]
         }
     },
@@ -834,13 +858,13 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                73
+                75
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                262
+                265
             ]
         }
     },
@@ -848,9 +872,9 @@
         "https://quotes.toscrape.com/": {
             "frequency": 3,
             "positions": [
-                76,
-                85,
-                94
+                78,
+                87,
+                96
             ]
         }
     },
@@ -858,7 +882,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                78
+                80
             ]
         }
     },
@@ -866,7 +890,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                82
+                84
             ]
         }
     },
@@ -874,10 +898,10 @@
         "https://quotes.toscrape.com/": {
             "frequency": 4,
             "positions": [
-                91,
-                146,
-                215,
-                264
+                93,
+                150,
+                222,
+                274
             ]
         }
     },
@@ -885,7 +909,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                95
+                97
             ]
         }
     },
@@ -893,7 +917,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                97
+                99
             ]
         }
     },
@@ -901,7 +925,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                100
+                102
             ]
         }
     },
@@ -909,7 +933,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                101
+                103
             ]
         }
     },
@@ -917,7 +941,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                102
+                104
             ]
         }
     },
@@ -925,7 +949,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                103
+                105
             ]
         }
     },
@@ -933,13 +957,13 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                104
+                106
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                328
+                334
             ]
         }
     },
@@ -947,16 +971,16 @@
         "https://quotes.toscrape.com/": {
             "frequency": 4,
             "positions": [
-                105,
-                148,
-                187,
-                197
+                107,
+                152,
+                191,
+                201
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                495
+                504
             ]
         }
     },
@@ -964,7 +988,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                106
+                108
             ]
         }
     },
@@ -972,8 +996,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                107,
-                233
+                109,
+                241
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
@@ -982,22 +1006,22 @@
                 13,
                 17,
                 23,
-                53,
-                64,
-                86,
-                128,
-                162,
-                169,
-                174,
-                198,
-                230,
-                243,
-                342,
-                366,
-                425,
-                491,
-                594,
-                601
+                54,
+                65,
+                88,
+                131,
+                165,
+                172,
+                177,
+                201,
+                233,
+                246,
+                349,
+                373,
+                433,
+                500,
+                605,
+                612
             ]
         }
     },
@@ -1005,14 +1029,14 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                109
+                111
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                134,
-                192
+                137,
+                195
             ]
         }
     },
@@ -1020,7 +1044,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                110
+                112
             ]
         }
     },
@@ -1028,13 +1052,13 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                111
+                113
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                138
+                141
             ]
         }
     },
@@ -1042,7 +1066,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                113
+                115
             ]
         }
     },
@@ -1050,7 +1074,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                114
+                116
             ]
         }
     },
@@ -1058,7 +1082,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                116
+                118
             ]
         }
     },
@@ -1066,7 +1090,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                117
+                119
             ]
         }
     },
@@ -1074,7 +1098,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                120
+                122
             ]
         }
     },
@@ -1082,8 +1106,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                121,
-                267
+                123,
+                277
             ]
         }
     },
@@ -1091,7 +1115,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                122
+                124
             ]
         }
     },
@@ -1099,9 +1123,9 @@
         "https://quotes.toscrape.com/": {
             "frequency": 3,
             "positions": [
-                123,
-                256,
-                266
+                125,
+                266,
+                276
             ]
         }
     },
@@ -1109,7 +1133,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                124
+                126
             ]
         }
     },
@@ -1117,7 +1141,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                126
+                128
             ]
         }
     },
@@ -1125,7 +1149,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                127
+                129
             ]
         }
     },
@@ -1133,7 +1157,13 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                129
+                131
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                627
             ]
         }
     },
@@ -1141,34 +1171,43 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                130
+                132
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 13,
             "positions": [
-                102,
-                159,
-                195,
-                217,
-                228,
-                267,
-                350,
-                418,
-                446,
-                457,
-                493,
-                530,
-                606
+                104,
+                162,
+                198,
+                220,
+                231,
+                270,
+                357,
+                426,
+                454,
+                465,
+                502,
+                539,
+                618
             ]
         }
     },
-    "its": {
+    "s": {
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                131,
-                232
+                134,
+                240
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 4,
+            "positions": [
+                86,
+                306,
+                339,
+                544
             ]
         }
     },
@@ -1176,8 +1215,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                132,
-                171
+                135,
+                175
             ]
         }
     },
@@ -1185,8 +1224,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                135,
-                138
+                138,
+                141
             ]
         }
     },
@@ -1194,7 +1233,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                136
+                139
             ]
         }
     },
@@ -1202,7 +1241,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                139
+                142
             ]
         }
     },
@@ -1210,7 +1249,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                141
+                144
             ]
         }
     },
@@ -1218,15 +1257,15 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                142
+                145
             ]
         }
     },
-    "beyourself": {
+    "yourself": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                145
+                149
             ]
         }
     },
@@ -1234,7 +1273,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                147
+                151
             ]
         }
     },
@@ -1242,14 +1281,14 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                150,
-                156
+                154,
+                160
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                544
+                554
             ]
         }
     },
@@ -1257,8 +1296,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                152,
-                158
+                156,
+                162
             ]
         }
     },
@@ -1266,8 +1305,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                154,
-                167
+                158,
+                171
             ]
         }
     },
@@ -1275,7 +1314,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                155
+                159
             ]
         }
     },
@@ -1283,8 +1322,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                160,
-                168
+                164,
+                172
             ]
         }
     },
@@ -1292,7 +1331,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                166
+                170
             ]
         }
     },
@@ -1300,7 +1339,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                174
+                178
             ]
         }
     },
@@ -1308,20 +1347,20 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                175,
-                183
+                179,
+                187
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 7,
             "positions": [
-                131,
-                260,
-                294,
-                320,
-                344,
-                352,
-                591
+                134,
+                263,
+                297,
+                325,
+                351,
+                359,
+                602
             ]
         }
     },
@@ -1329,10 +1368,10 @@
         "https://quotes.toscrape.com/": {
             "frequency": 4,
             "positions": [
-                177,
-                185,
-                224,
-                248
+                181,
+                189,
+                231,
+                258
             ]
         }
     },
@@ -1340,7 +1379,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                182
+                186
             ]
         }
     },
@@ -1348,7 +1387,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                189
+                193
             ]
         }
     },
@@ -1356,7 +1395,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                190
+                194
             ]
         }
     },
@@ -1364,22 +1403,23 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                194,
-                263
+                198,
+                273
             ]
         }
     },
     "i": {
         "https://quotes.toscrape.com/": {
-            "frequency": 1,
+            "frequency": 2,
             "positions": [
-                195
+                199,
+                203
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                94
+                96
             ]
         }
     },
@@ -1387,15 +1427,15 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                198
+                202
             ]
         }
     },
-    "ive": {
+    "ve": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                199
+                204
             ]
         }
     },
@@ -1403,7 +1443,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                200
+                205
             ]
         }
     },
@@ -1411,35 +1451,19 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                201
-            ]
-        }
-    },
-    "10000": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                202
-            ]
-        }
-    },
-    "wont": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                205
-            ]
-        }
-    },
-    "work": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
                 206
             ]
         }
     },
-    "thomas": {
+    "10": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                207
+            ]
+        }
+    },
+    "000": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1447,12 +1471,44 @@
             ]
         }
     },
+    "won": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                211
+            ]
+        }
+    },
+    "t": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                212
+            ]
+        }
+    },
+    "work": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                213
+            ]
+        }
+    },
+    "thomas": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                215
+            ]
+        }
+    },
     "edison": {
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                210,
-                213
+                217,
+                220
             ]
         }
     },
@@ -1460,7 +1516,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                214
+                221
             ]
         }
     },
@@ -1468,7 +1524,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                216
+                223
             ]
         }
     },
@@ -1476,7 +1532,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                218
+                225
             ]
         }
     },
@@ -1484,8 +1540,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                220,
-                247
+                227,
+                257
             ]
         }
     },
@@ -1493,7 +1549,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                222
+                229
             ]
         }
     },
@@ -1501,7 +1557,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                223
+                230
             ]
         }
     },
@@ -1509,7 +1565,7 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                225
+                232
             ]
         }
     },
@@ -1517,8 +1573,8 @@
         "https://quotes.toscrape.com/": {
             "frequency": 2,
             "positions": [
-                226,
-                249
+                233,
+                259
             ]
         }
     },
@@ -1526,13 +1582,13 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                227
+                234
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                291
+                294
             ]
         }
     },
@@ -1540,49 +1596,11 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                228
-            ]
-        }
-    },
-    "until": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                231
-            ]
-        },
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                598
-            ]
-        }
-    },
-    "hot": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                234
-            ]
-        }
-    },
-    "water": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
                 235
             ]
         }
     },
-    "eleanor": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                237
-            ]
-        }
-    },
-    "roosevelt": {
+    "until": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1592,19 +1610,19 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                515
+                609
             ]
         }
     },
-    "misattributedeleanorroosevelt": {
+    "hot": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                241
+                242
             ]
         }
     },
-    "day": {
+    "water": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1612,31 +1630,39 @@
             ]
         }
     },
-    "sunshine": {
+    "eleanor": {
         "https://quotes.toscrape.com/": {
-            "frequency": 1,
+            "frequency": 2,
             "positions": [
-                245
-            ]
-        }
-    },
-    "night": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
+                245,
                 250
             ]
         }
     },
-    "steve": {
+    "roosevelt": {
         "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                246,
+                251
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                252
+                524
             ]
         }
     },
-    "martin": {
+    "misattributed": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                249
+            ]
+        }
+    },
+    "day": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1644,32 +1670,15 @@
             ]
         }
     },
-    "obvious": {
+    "sunshine": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                257
+                255
             ]
         }
     },
-    "simile": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 2,
-            "positions": [
-                258,
-                272
-            ]
-        }
-    },
-    "next": {
-        "https://quotes.toscrape.com/": {
-            "frequency": 1,
-            "positions": [
-                259
-            ]
-        }
-    },
-    "top": {
+    "night": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1677,23 +1686,40 @@
             ]
         }
     },
-    "ten": {
+    "steve": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                261
+                262
             ]
         }
     },
-    "reading": {
+    "martin": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                268
+                263
             ]
         }
     },
-    "friendship": {
+    "obvious": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                267
+            ]
+        }
+    },
+    "simile": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 2,
+            "positions": [
+                268,
+                282
+            ]
+        }
+    },
+    "next": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1701,7 +1727,7 @@
             ]
         }
     },
-    "friends": {
+    "top": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1709,7 +1735,7 @@
             ]
         }
     },
-    "truth": {
+    "ten": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
@@ -1717,11 +1743,43 @@
             ]
         }
     },
-    "goodreadscom": {
+    "reading": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                275
+                278
+            ]
+        }
+    },
+    "friendship": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                279
+            ]
+        }
+    },
+    "friends": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                280
+            ]
+        }
+    },
+    "truth": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                281
+            ]
+        }
+    },
+    "goodreads": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                285
             ]
         },
         "https://quotes.toscrape.com/login": {
@@ -1733,15 +1791,15 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                619
+                642
             ]
         }
     },
-    "made": {
+    "com": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                276
+                286
             ]
         },
         "https://quotes.toscrape.com/login": {
@@ -1751,19 +1809,17 @@
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 3,
+            "frequency": 1,
             "positions": [
-                77,
-                609,
-                620
+                643
             ]
         }
     },
-    "with": {
+    "made": {
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                277
+                287
             ]
         },
         "https://quotes.toscrape.com/login": {
@@ -1773,15 +1829,37 @@
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                78,
+                621,
+                644
+            ]
+        }
+    },
+    "with": {
+        "https://quotes.toscrape.com/": {
+            "frequency": 1,
+            "positions": [
+                288
+            ]
+        },
+        "https://quotes.toscrape.com/login": {
+            "frequency": 1,
+            "positions": [
+                14
+            ]
+        },
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 7,
             "positions": [
-                385,
-                419,
-                441,
-                570,
-                588,
-                614,
-                621
+                393,
+                427,
+                449,
+                580,
+                599,
+                626,
+                645
             ]
         }
     },
@@ -1789,19 +1867,19 @@
         "https://quotes.toscrape.com/": {
             "frequency": 1,
             "positions": [
-                279
+                290
             ]
         },
         "https://quotes.toscrape.com/login": {
             "frequency": 1,
             "positions": [
-                15
+                16
             ]
         },
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                623
+                647
             ]
         }
     },
@@ -1870,7 +1948,7 @@
             "positions": [
                 15,
                 25,
-                499
+                508
             ]
         }
     },
@@ -1887,26 +1965,27 @@
             "frequency": 5,
             "positions": [
                 21,
-                364,
-                374,
-                480,
-                586
+                371,
+                382,
+                489,
+                597
             ]
         }
     },
     "he": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 9,
+            "frequency": 10,
             "positions": [
                 26,
-                104,
-                126,
-                336,
-                403,
-                427,
-                437,
-                462,
-                507
+                106,
+                129,
+                343,
+                411,
+                435,
+                445,
+                470,
+                488,
+                516
             ]
         }
     },
@@ -1920,23 +1999,24 @@
     },
     "his": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 11,
+            "frequency": 12,
             "positions": [
                 28,
-                37,
-                55,
-                79,
-                321,
-                345,
-                353,
-                398,
-                420,
-                452,
-                599
+                38,
+                56,
+                80,
+                326,
+                352,
+                360,
+                406,
+                428,
+                460,
+                610,
+                614
             ]
         }
     },
-    "phd": {
+    "ph": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -1944,11 +2024,22 @@
             ]
         }
     },
+    "d": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 3,
+            "positions": [
+                30,
+                320,
+                523
+            ]
+        }
+    },
     "at": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
+            "frequency": 2,
             "positions": [
-                30
+                31,
+                126
             ]
         }
     },
@@ -1956,7 +2047,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                32
+                33
             ]
         }
     },
@@ -1964,7 +2055,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                34
+                35
             ]
         }
     },
@@ -1972,7 +2063,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                36
+                37
             ]
         }
     },
@@ -1980,8 +2071,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                38,
-                65
+                39,
+                66
             ]
         }
     },
@@ -1989,9 +2080,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                39,
-                57,
-                430
+                40,
+                58,
+                438
             ]
         }
     },
@@ -1999,7 +2090,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                40
+                41
             ]
         }
     },
@@ -2007,8 +2098,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                42,
-                360
+                43,
+                367
             ]
         }
     },
@@ -2016,8 +2107,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                43,
-                361
+                44,
+                368
             ]
         }
     },
@@ -2025,7 +2116,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                45
+                46
             ]
         }
     },
@@ -2033,7 +2124,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                47
+                48
             ]
         }
     },
@@ -2041,7 +2132,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                48
+                49
             ]
         }
     },
@@ -2049,8 +2140,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                49,
-                517
+                50,
+                526
             ]
         }
     },
@@ -2058,8 +2149,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                51,
-                340
+                52,
+                347
             ]
         }
     },
@@ -2067,8 +2158,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                52,
-                341
+                53,
+                348
             ]
         }
     },
@@ -2076,8 +2167,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                54,
-                339
+                55,
+                346
             ]
         }
     },
@@ -2085,7 +2176,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                56
+                57
             ]
         }
     },
@@ -2093,10 +2184,10 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 4,
             "positions": [
-                58,
-                225,
-                431,
-                500
+                59,
+                228,
+                439,
+                509
             ]
         }
     },
@@ -2104,8 +2195,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                59,
-                399
+                60,
+                407
             ]
         }
     },
@@ -2113,24 +2204,25 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 4,
             "positions": [
-                60,
-                402,
+                61,
                 410,
-                436
+                418,
+                444
             ]
         }
     },
     "theory": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 7,
+            "frequency": 8,
             "positions": [
-                61,
-                400,
-                422,
-                434,
-                448,
+                62,
+                376,
+                408,
+                430,
+                442,
                 456,
-                477
+                464,
+                485
             ]
         }
     },
@@ -2138,9 +2230,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                62,
-                412,
-                463
+                63,
+                420,
+                471
             ]
         }
     },
@@ -2148,9 +2240,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                63,
-                221,
-                428
+                64,
+                224,
+                436
             ]
         }
     },
@@ -2158,7 +2250,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                69
+                70
             ]
         }
     },
@@ -2166,7 +2258,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                71
+                72
             ]
         }
     },
@@ -2174,7 +2266,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                74
+                75
             ]
         }
     },
@@ -2182,7 +2274,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                75
+                76
             ]
         }
     },
@@ -2190,8 +2282,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                78,
-                595
+                79,
+                606
             ]
         }
     },
@@ -2199,7 +2291,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                80
+                81
             ]
         }
     },
@@ -2207,7 +2299,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                81
+                82
             ]
         }
     },
@@ -2215,16 +2307,16 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                82
+                83
             ]
         }
     },
-    "us": {
+    "u": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                84,
-                534
+                85,
+                543
             ]
         }
     },
@@ -2232,7 +2324,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                85
+                87
             ]
         }
     },
@@ -2240,7 +2332,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                87
+                89
             ]
         }
     },
@@ -2248,7 +2340,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                90
+                92
             ]
         }
     },
@@ -2256,7 +2348,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                91
+                93
             ]
         }
     },
@@ -2264,8 +2356,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                93,
-                505
+                95,
+                514
             ]
         }
     },
@@ -2273,7 +2365,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                95
+                97
             ]
         }
     },
@@ -2281,7 +2373,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                97
+                99
             ]
         }
     },
@@ -2289,7 +2381,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                98
+                100
             ]
         }
     },
@@ -2297,7 +2389,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                100
+                102
             ]
         }
     },
@@ -2305,7 +2397,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                101
+                103
             ]
         }
     },
@@ -2313,7 +2405,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                103
+                105
             ]
         }
     },
@@ -2321,7 +2413,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                105
+                107
             ]
         }
     },
@@ -2329,7 +2421,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                107
+                109
             ]
         }
     },
@@ -2337,7 +2429,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                108
+                110
             ]
         }
     },
@@ -2345,8 +2437,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                110,
-                122
+                112,
+                124
             ]
         }
     },
@@ -2354,7 +2446,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                111
+                113
             ]
         }
     },
@@ -2362,14 +2454,14 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 8,
             "positions": [
-                112,
-                161,
-                186,
-                282,
-                327,
-                449,
-                470,
-                578
+                114,
+                164,
+                189,
+                285,
+                333,
+                457,
+                478,
+                589
             ]
         }
     },
@@ -2377,7 +2469,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                113
+                115
             ]
         }
     },
@@ -2385,7 +2477,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                115
+                117
             ]
         }
     },
@@ -2393,7 +2485,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                117
+                119
             ]
         }
     },
@@ -2401,15 +2493,15 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                120
+                122
             ]
         }
     },
-    "warfareat": {
+    "warfare": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                123
+                125
             ]
         }
     },
@@ -2417,8 +2509,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                125,
-                220
+                128,
+                223
             ]
         }
     },
@@ -2426,7 +2518,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                127
+                130
             ]
         }
     },
@@ -2434,9 +2526,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                129,
-                175,
-                231
+                132,
+                178,
+                234
             ]
         }
     },
@@ -2444,7 +2536,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                130
+                133
             ]
         }
     },
@@ -2452,7 +2544,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                133
+                136
             ]
         }
     },
@@ -2460,7 +2552,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                135
+                138
             ]
         }
     },
@@ -2468,10 +2560,10 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 4,
             "positions": [
-                137,
-                218,
-                229,
-                307
+                140,
+                221,
+                232,
+                311
             ]
         }
     },
@@ -2479,7 +2571,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                141
+                144
             ]
         }
     },
@@ -2487,8 +2579,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                143,
-                153
+                146,
+                156
             ]
         }
     },
@@ -2496,8 +2588,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                144,
-                154
+                147,
+                157
             ]
         }
     },
@@ -2505,7 +2597,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                146
+                149
             ]
         }
     },
@@ -2513,7 +2605,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                149
+                152
             ]
         }
     },
@@ -2521,8 +2613,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                150,
-                258
+                153,
+                261
             ]
         }
     },
@@ -2530,7 +2622,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                156
+                159
             ]
         }
     },
@@ -2538,7 +2630,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                158
+                161
             ]
         }
     },
@@ -2546,7 +2638,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                160
+                163
             ]
         }
     },
@@ -2554,7 +2646,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                164
+                167
             ]
         }
     },
@@ -2562,7 +2654,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                165
+                168
             ]
         }
     },
@@ -2570,7 +2662,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                166
+                169
             ]
         }
     },
@@ -2578,7 +2670,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                167
+                170
             ]
         }
     },
@@ -2586,8 +2678,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                168,
-                490
+                171,
+                499
             ]
         }
     },
@@ -2595,7 +2687,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                171
+                174
             ]
         }
     },
@@ -2603,7 +2695,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                173
+                176
             ]
         }
     },
@@ -2611,7 +2703,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                176
+                179
             ]
         }
     },
@@ -2619,7 +2711,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                177
+                180
             ]
         }
     },
@@ -2627,7 +2719,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                178
+                181
             ]
         }
     },
@@ -2635,7 +2727,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                181
+                184
             ]
         }
     },
@@ -2643,7 +2735,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                182
+                185
             ]
         }
     },
@@ -2651,7 +2743,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                184
+                187
             ]
         }
     },
@@ -2659,8 +2751,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                185,
-                553
+                188,
+                563
             ]
         }
     },
@@ -2668,7 +2760,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                188
+                191
             ]
         }
     },
@@ -2676,7 +2768,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                190
+                193
             ]
         }
     },
@@ -2684,7 +2776,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                194
+                197
             ]
         }
     },
@@ -2692,7 +2784,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                197
+                200
             ]
         }
     },
@@ -2700,7 +2792,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                199
+                202
             ]
         }
     },
@@ -2708,7 +2800,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                200
+                203
             ]
         }
     },
@@ -2716,10 +2808,10 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 4,
             "positions": [
-                201,
-                297,
-                392,
-                538
+                204,
+                300,
+                400,
+                548
             ]
         }
     },
@@ -2727,7 +2819,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                205
+                208
             ]
         }
     },
@@ -2735,7 +2827,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                208
+                211
             ]
         }
     },
@@ -2743,9 +2835,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                209,
-                278,
-                554
+                212,
+                281,
+                564
             ]
         }
     },
@@ -2753,7 +2845,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                210
+                213
             ]
         }
     },
@@ -2761,7 +2853,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                211
+                214
             ]
         }
     },
@@ -2769,7 +2861,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                213
+                216
             ]
         }
     },
@@ -2777,7 +2869,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                214
+                217
             ]
         }
     },
@@ -2785,8 +2877,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                215,
-                226
+                218,
+                229
             ]
         }
     },
@@ -2794,8 +2886,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                216,
-                227
+                219,
+                230
             ]
         }
     },
@@ -2803,7 +2895,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                224
+                227
             ]
         }
     },
@@ -2811,7 +2903,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                232
+                235
             ]
         }
     },
@@ -2819,7 +2911,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                235
+                238
             ]
         }
     },
@@ -2827,7 +2919,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                236
+                239
             ]
         }
     },
@@ -2835,7 +2927,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                239
+                242
             ]
         }
     },
@@ -2843,9 +2935,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                240,
-                528,
-                596
+                243,
+                537,
+                607
             ]
         }
     },
@@ -2853,7 +2945,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                241
+                244
             ]
         }
     },
@@ -2861,7 +2953,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                242
+                245
             ]
         }
     },
@@ -2869,9 +2961,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                245,
-                303,
-                510
+                248,
+                307,
+                519
             ]
         }
     },
@@ -2879,7 +2971,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                247
+                250
             ]
         }
     },
@@ -2887,7 +2979,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                248
+                251
             ]
         }
     },
@@ -2895,7 +2987,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                249
+                252
             ]
         }
     },
@@ -2903,7 +2995,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                250
+                253
             ]
         }
     },
@@ -2911,7 +3003,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                251
+                254
             ]
         }
     },
@@ -2919,7 +3011,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                252
+                255
             ]
         }
     },
@@ -2927,7 +3019,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                253
+                256
             ]
         }
     },
@@ -2935,7 +3027,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                255
+                258
             ]
         }
     },
@@ -2943,8 +3035,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                257,
-                611
+                260,
+                623
             ]
         }
     },
@@ -2952,8 +3044,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                261,
-                295
+                264,
+                298
             ]
         }
     },
@@ -2961,7 +3053,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                266
+                269
             ]
         }
     },
@@ -2969,7 +3061,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                268
+                271
             ]
         }
     },
@@ -2977,7 +3069,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                270
+                273
             ]
         }
     },
@@ -2985,7 +3077,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                271
+                274
             ]
         }
     },
@@ -2993,7 +3085,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                273
+                276
             ]
         }
     },
@@ -3001,7 +3093,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                275
+                278
             ]
         }
     },
@@ -3009,7 +3101,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                277
+                280
             ]
         }
     },
@@ -3017,7 +3109,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                279
+                282
             ]
         }
     },
@@ -3025,7 +3117,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                280
+                283
             ]
         }
     },
@@ -3033,7 +3125,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                281
+                284
             ]
         }
     },
@@ -3041,7 +3133,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                284
+                287
             ]
         }
     },
@@ -3049,7 +3141,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                285
+                288
             ]
         }
     },
@@ -3057,8 +3149,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                286,
-                300
+                289,
+                303
             ]
         }
     },
@@ -3066,9 +3158,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                287,
-                289,
-                375
+                290,
+                292,
+                383
             ]
         }
     },
@@ -3076,7 +3168,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                288
+                291
             ]
         }
     },
@@ -3084,7 +3176,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                290
+                293
             ]
         }
     },
@@ -3092,7 +3184,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                292
+                295
             ]
         }
     },
@@ -3100,7 +3192,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                293
+                296
             ]
         }
     },
@@ -3108,7 +3200,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                299
+                302
             ]
         }
     },
@@ -3116,15 +3208,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                301
-            ]
-        }
-    },
-    "einsteins": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                302
+                304
             ]
         }
     },
@@ -3132,7 +3216,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                304
+                308
             ]
         }
     },
@@ -3140,7 +3224,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                305
+                309
             ]
         }
     },
@@ -3148,7 +3232,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                308
+                312
             ]
         }
     },
@@ -3156,7 +3240,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                309
+                313
             ]
         }
     },
@@ -3164,7 +3248,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                311
+                315
             ]
         }
     },
@@ -3172,7 +3256,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                312
+                316
             ]
         }
     },
@@ -3180,7 +3264,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                313
+                317
             ]
         }
     },
@@ -3188,7 +3272,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                314
+                318
             ]
         }
     },
@@ -3196,44 +3280,20 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                315
-            ]
-        }
-    },
-    "d": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 2,
-            "positions": [
-                316,
-                514
-            ]
-        }
-    },
-    "1955while": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                317
-            ]
-        }
-    },
-    "best": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                318
-            ]
-        }
-    },
-    "known": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
                 319
             ]
         }
     },
-    "massenergy": {
+    "1955": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                321,
+                613
+            ]
+        }
+    },
+    "while": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3241,7 +3301,7 @@
             ]
         }
     },
-    "equivalence": {
+    "best": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3249,7 +3309,7 @@
             ]
         }
     },
-    "formula": {
+    "known": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3257,23 +3317,23 @@
             ]
         }
     },
-    "e": {
+    "mass": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                325
+                327
             ]
         }
     },
-    "mc2": {
+    "energy": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                326
+                328
             ]
         }
     },
-    "been": {
+    "equivalence": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3281,7 +3341,7 @@
             ]
         }
     },
-    "dubbed": {
+    "formula": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3289,7 +3349,15 @@
             ]
         }
     },
-    "worlds": {
+    "e": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                331
+            ]
+        }
+    },
+    "mc2": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3297,23 +3365,7 @@
             ]
         }
     },
-    "most": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                333
-            ]
-        }
-    },
-    "famous": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                334
-            ]
-        }
-    },
-    "equation": {
+    "been": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
@@ -3321,11 +3373,43 @@
             ]
         }
     },
+    "dubbed": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                336
+            ]
+        }
+    },
+    "most": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                340
+            ]
+        }
+    },
+    "famous": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                341
+            ]
+        }
+    },
+    "equation": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                342
+            ]
+        }
+    },
     "received": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                337
+                344
             ]
         }
     },
@@ -3333,8 +3417,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                343,
-                349
+                350,
+                356
             ]
         }
     },
@@ -3342,7 +3426,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                346
+                353
             ]
         }
     },
@@ -3350,7 +3434,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                348
+                355
             ]
         }
     },
@@ -3358,7 +3442,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                351
+                358
             ]
         }
     },
@@ -3366,7 +3450,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                354
+                361
             ]
         }
     },
@@ -3374,7 +3458,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                357
+                364
             ]
         }
     },
@@ -3382,7 +3466,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                363
+                370
             ]
         }
     },
@@ -3390,7 +3474,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                365
+                372
             ]
         }
     },
@@ -3398,7 +3482,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                367
+                374
             ]
         }
     },
@@ -3406,16 +3490,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                368,
-                447
-            ]
-        }
-    },
-    "theoryeinstein": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                369
+                375,
+                455
             ]
         }
     },
@@ -3423,7 +3499,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                370
+                378
             ]
         }
     },
@@ -3431,7 +3507,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                372
+                380
             ]
         }
     },
@@ -3439,9 +3515,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                373,
-                384,
-                445
+                381,
+                392,
+                453
             ]
         }
     },
@@ -3449,7 +3525,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                376
+                384
             ]
         }
     },
@@ -3457,7 +3533,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                377
+                385
             ]
         }
     },
@@ -3465,7 +3541,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                379
+                387
             ]
         }
     },
@@ -3473,8 +3549,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                381,
-                387
+                389,
+                395
             ]
         }
     },
@@ -3482,7 +3558,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                383
+                391
             ]
         }
     },
@@ -3490,7 +3566,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                390
+                398
             ]
         }
     },
@@ -3498,7 +3574,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                391
+                399
             ]
         }
     },
@@ -3506,9 +3582,9 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 3,
             "positions": [
-                393,
-                450,
-                540
+                401,
+                458,
+                550
             ]
         }
     },
@@ -3516,8 +3592,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                396,
-                521
+                404,
+                530
             ]
         }
     },
@@ -3525,7 +3601,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                404
+                412
             ]
         }
     },
@@ -3533,7 +3609,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                405
+                413
             ]
         }
     },
@@ -3541,7 +3617,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                408
+                416
             ]
         }
     },
@@ -3549,7 +3625,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                411
+                419
             ]
         }
     },
@@ -3557,7 +3633,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                414
+                422
             ]
         }
     },
@@ -3565,7 +3641,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                416
+                424
             ]
         }
     },
@@ -3573,7 +3649,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                417
+                425
             ]
         }
     },
@@ -3581,7 +3657,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                421
+                429
             ]
         }
     },
@@ -3589,7 +3665,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                424
+                432
             ]
         }
     },
@@ -3597,7 +3673,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                426
+                434
             ]
         }
     },
@@ -3605,7 +3681,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                433
+                441
             ]
         }
     },
@@ -3613,7 +3689,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                438
+                446
             ]
         }
     },
@@ -3621,7 +3697,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                440
+                448
             ]
         }
     },
@@ -3629,7 +3705,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                442
+                450
             ]
         }
     },
@@ -3637,7 +3713,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                444
+                452
             ]
         }
     },
@@ -3645,7 +3721,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                453
+                461
             ]
         }
     },
@@ -3653,7 +3729,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                455
+                463
             ]
         }
     },
@@ -3661,7 +3737,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                459
+                467
             ]
         }
     },
@@ -3669,7 +3745,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                461
+                469
             ]
         }
     },
@@ -3677,7 +3753,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                464
+                472
             ]
         }
     },
@@ -3685,7 +3761,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                466
+                474
             ]
         }
     },
@@ -3693,15 +3769,16 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                467
+                475
             ]
         }
     },
     "light": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
+            "frequency": 2,
             "positions": [
-                469
+                477,
+                487
             ]
         }
     },
@@ -3709,7 +3786,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                471
+                479
             ]
         }
     },
@@ -3717,7 +3794,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                473
+                481
             ]
         }
     },
@@ -3725,15 +3802,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                476
-            ]
-        }
-    },
-    "lighthe": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                479
+                484
             ]
         }
     },
@@ -3741,7 +3810,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                481
+                490
             ]
         }
     },
@@ -3749,7 +3818,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                483
+                492
             ]
         }
     },
@@ -3757,7 +3826,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                484
+                493
             ]
         }
     },
@@ -3765,7 +3834,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                485
+                494
             ]
         }
     },
@@ -3773,7 +3842,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                486
+                495
             ]
         }
     },
@@ -3781,7 +3850,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                487
+                496
             ]
         }
     },
@@ -3789,7 +3858,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                488
+                497
             ]
         }
     },
@@ -3797,7 +3866,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                492
+                501
             ]
         }
     },
@@ -3805,7 +3874,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                494
+                503
             ]
         }
     },
@@ -3813,7 +3882,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                496
+                505
             ]
         }
     },
@@ -3821,7 +3890,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                497
+                506
             ]
         }
     },
@@ -3829,7 +3898,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                502
+                511
             ]
         }
     },
@@ -3837,7 +3906,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                506
+                515
             ]
         }
     },
@@ -3845,7 +3914,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                508
+                517
             ]
         }
     },
@@ -3853,7 +3922,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                512
+                521
             ]
         }
     },
@@ -3861,7 +3930,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                513
+                522
             ]
         }
     },
@@ -3869,7 +3938,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                516
+                525
             ]
         }
     },
@@ -3877,7 +3946,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                520
+                529
             ]
         }
     },
@@ -3885,7 +3954,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                523
+                532
             ]
         }
     },
@@ -3893,7 +3962,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                524
+                533
             ]
         }
     },
@@ -3901,7 +3970,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                525
+                534
             ]
         }
     },
@@ -3909,7 +3978,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                529
+                538
             ]
         }
     },
@@ -3917,7 +3986,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                531
+                540
             ]
         }
     },
@@ -3925,7 +3994,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                535
+                545
             ]
         }
     },
@@ -3933,7 +4002,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                536
+                546
             ]
         }
     },
@@ -3941,7 +4010,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                537
+                547
             ]
         }
     },
@@ -3949,7 +4018,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                539
+                549
             ]
         }
     },
@@ -3957,7 +4026,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                543
+                553
             ]
         }
     },
@@ -3965,7 +4034,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                546
+                556
             ]
         }
     },
@@ -3973,7 +4042,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                547
+                557
             ]
         }
     },
@@ -3981,7 +4050,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                549
+                559
             ]
         }
     },
@@ -3989,7 +4058,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                550
+                560
             ]
         }
     },
@@ -3997,7 +4066,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                552
+                562
             ]
         }
     },
@@ -4005,7 +4074,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                555
+                565
             ]
         }
     },
@@ -4013,7 +4082,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                556
+                566
             ]
         }
     },
@@ -4021,7 +4090,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                558
+                568
             ]
         }
     },
@@ -4029,7 +4098,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                560
+                570
             ]
         }
     },
@@ -4037,7 +4106,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                562
+                572
             ]
         }
     },
@@ -4045,7 +4114,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                563
+                573
             ]
         }
     },
@@ -4053,8 +4122,8 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 2,
             "positions": [
-                564,
-                583
+                574,
+                594
             ]
         }
     },
@@ -4062,7 +4131,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                565
+                575
             ]
         }
     },
@@ -4070,7 +4139,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                568
+                578
             ]
         }
     },
@@ -4078,7 +4147,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                569
+                579
             ]
         }
     },
@@ -4086,15 +4155,16 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                571
+                581
             ]
         }
     },
     "russell": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
+            "frequency": 2,
             "positions": [
-                572
+                582,
+                586
             ]
         }
     },
@@ -4102,15 +4172,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                574
-            ]
-        }
-    },
-    "russelleinstein": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                576
+                584
             ]
         }
     },
@@ -4118,7 +4180,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                577
+                588
             ]
         }
     },
@@ -4126,7 +4188,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                579
+                590
             ]
         }
     },
@@ -4134,7 +4196,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                581
+                592
             ]
         }
     },
@@ -4142,7 +4204,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                584
+                595
             ]
         }
     },
@@ -4150,7 +4212,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                587
+                598
             ]
         }
     },
@@ -4158,7 +4220,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                590
+                601
             ]
         }
     },
@@ -4166,7 +4228,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                592
+                603
             ]
         }
     },
@@ -4174,7 +4236,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                593
+                604
             ]
         }
     },
@@ -4182,7 +4244,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                597
+                608
             ]
         }
     },
@@ -4190,15 +4252,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                600
-            ]
-        }
-    },
-    "1955his": {
-        "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
-            "positions": [
-                602
+                611
             ]
         }
     },
@@ -4206,7 +4260,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                603
+                615
             ]
         }
     },
@@ -4214,7 +4268,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                604
+                616
             ]
         }
     },
@@ -4222,7 +4276,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                605
+                617
             ]
         }
     },
@@ -4230,7 +4284,7 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                607
+                619
             ]
         }
     },
@@ -4238,23 +4292,81 @@
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                613
+                625
             ]
         }
     },
-    "geniusmore": {
+    "http": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
-            "frequency": 1,
+            "frequency": 2,
             "positions": [
-                615
+                629,
+                635
             ]
         }
     },
-    "httpenwikipediaorgwikialbert_ehttpwwwnobelprizeorgnobel_prize": {
+    "en": {
         "https://quotes.toscrape.com/author/Albert-Einstein": {
             "frequency": 1,
             "positions": [
-                616
+                630
+            ]
+        }
+    },
+    "wikipedia": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                631
+            ]
+        }
+    },
+    "org": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 2,
+            "positions": [
+                632,
+                638
+            ]
+        }
+    },
+    "wiki": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                633
+            ]
+        }
+    },
+    "albert_e": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                634
+            ]
+        }
+    },
+    "www": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                636
+            ]
+        }
+    },
+    "nobelprize": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                637
+            ]
+        }
+    },
+    "nobel_prize": {
+        "https://quotes.toscrape.com/author/Albert-Einstein": {
+            "frequency": 1,
+            "positions": [
+                639
             ]
         }
     }
