@@ -2,6 +2,7 @@ import sys
 import json
 import os
 from crawler import crawl_website
+from search import print_word
 
 INDEX_FILE_PATH = os.path.join("data", "index.json")
 
@@ -56,8 +57,8 @@ def main():
                     continue
                 
                 word = args[0].lower() # The brief specifies case-insensitive search
-                # print(f"Fetching index data for: '{word}'")
-                print("Not implemented")
+                print(f"Fetching index data for: '{word}'")
+                print_word(current_index, word)
                 
 
             elif command == "find":
