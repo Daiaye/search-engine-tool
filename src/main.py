@@ -2,7 +2,7 @@ import sys
 import json
 import os
 from crawler import crawl_website
-from search import print_word
+from search import print_word, find_query
 
 INDEX_FILE_PATH = os.path.join("data", "index.json")
 
@@ -68,7 +68,7 @@ def main():
                 
                 query_words = [w.lower() for w in args]
                 # print(f"Searching for pages containing: {', '.join(query_words)}")
-                print("Not implemented")
+                find_query(current_index, query_words)
 
             elif command in ["exit", "quit"]:
                 print("Exiting tool. Goodbye!")
