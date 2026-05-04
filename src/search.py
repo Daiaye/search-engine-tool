@@ -47,11 +47,22 @@ def find_query(index, query_words):
         else:
             matching_urls = matching_urls & urls_for_word
 
-        if matching_urls:
-            print(f"\nFound {len(matching_urls)} page(s) containing: {', '.join(query_words)}")
-            for url in matching_urls:
-                print(f" - {url}")
-        else:
-            print(f"No pages found containing all the words: {', '.join(query_words)}")
+    if matching_urls:
+        ranked_results = []
+
+        for url in matching_urls:
+            total_score = 0
+            for word in query_words:
+                total_score += index[word][url]["frequency"]
+
+            ranked_results.append((url, total_score))
+        
+        ranked_results.sort(key=lambda x: x[1], reverse=True)
+
+        print(f"\nFound {len(matching_urls)} page(s) containing: {', '.join(query_words)}")
+        for url, score in ranked_results:
+            print(f" - {url} (Total Mentions: {score})")
+    else:
+        print(f"No pages found containing all the words: {', '.join(query_words)}")
 
     
