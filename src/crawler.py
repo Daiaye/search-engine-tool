@@ -5,7 +5,10 @@ from urllib.parse import urljoin, urlparse
 from indexer import index_page_content
 
 def get_all_links(soup, base_url):
-    """Extracts all valid links from a BeautifulSoup object."""
+    """
+    Extracts all valid links, converts to absolute URLs,
+    removes fragments/queries, and filters for internal links only.
+    """
     links = []
     base_netloc = urlparse(base_url).netloc # netloc is 'Network Location' or domain
 
