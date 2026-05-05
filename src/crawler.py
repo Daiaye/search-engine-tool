@@ -2,7 +2,8 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
-from indexer import index_page_content
+from src.indexer import index_page_content
+from collections import deque
 
 def get_all_links(soup, base_url):
     """
@@ -10,19 +11,21 @@ def get_all_links(soup, base_url):
     removes fragments/queries, and filters for internal links only.
     """
     links = []
+    links_set = set()
     base_netloc = urlparse(base_url).netloc # netloc is 'Network Location' or domain
 
     for a_tag in soup.find_all('a', href=True):
         href = a_tag['href']
-        # Convert relative URLs to absolute URLs
         absolute_url = urljoin(base_url, href)
         parsed = urlparse(absolute_url)
+
         if parsed.netloc == base_netloc:
-            # Reconstruct URL without query and fragment
+            # Strip fragments and query parameters to prevent duplicate indexing
             clean_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
             
-            if clean_url not in links:
+            if clean_url not in links_set:
                 links.append(clean_url)
+                links_set.add(clean_url)
         
     return links
 
@@ -31,50 +34,43 @@ def crawl_website(seed_url):
     Crawls the target website, respecting the 6-second politeness window.
     Returns the compiled inverted index.
     """
-    frontier = [seed_url] # "To-Do" list
-    visited = set()       # Memory to avoid infinite loops
+    frontier = deque([seed_url])
+    frontier_set = {seed_url} # To check if a link is already in frontier in O(1)
+    visited = set()       
     
     inverted_index = {}   
 
     print(f"Starting crawl at {seed_url}...")
 
-    # Remove len(visited) < 3 when done with testing
+    # TODO: Remove testing limit 'len(visited) < 3'
     while frontier and len(visited) < 3:
-        # Get the next URL from the frontier
-        current_url = frontier.pop(0)
+        current_url = frontier.popleft()
 
         if current_url in visited:
             continue
 
         print(f"\nCrawling: {current_url}")
         
-        # 1. THE POLITENESS WINDOW
-        # We sleep BEFORE the request so we don't accidentally spam the server
+        # Enforce politeness
         if len(visited) > 0:
             print("Waiting 6 seconds to be polite...")
             time.sleep(6)
 
         try:
-            # 2. Fetch the HTML
             response = requests.get(current_url, timeout=10)
-            # Raise an exception if the server returns an error (e.g., 404 Not Found)
-            response.raise_for_status() 
-            
-            # Mark as visited only after a successful fetch
-            visited.add(current_url)
+            response.raise_for_status() # Raise an exception if the server returns an error (e.g., 404 Not Found)
 
-            # 3. Parse the HTML using Beautiful Soup
+            visited.add(current_url)
             soup = BeautifulSoup(response.text, 'html.parser')
 
-            # 4. Find new links and add them to the frontier
             new_links = get_all_links(soup, current_url)
             for link in new_links:
-                if link not in visited and link not in frontier:
+                if link not in visited and link not in frontier_set:
                     frontier.append(link)
+                    frontier_set.add(link)
                     
             print(f"Found {len(new_links)} valid links on this page. Frontier size: {len(frontier)}")
 
-            # 5. Index the words on this page
             inverted_index = index_page_content(soup, current_url, inverted_index)
 
         except requests.exceptions.RequestException as e:
