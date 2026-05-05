@@ -7,14 +7,20 @@ from indexer import index_page_content
 def get_all_links(soup, base_url):
     """Extracts all valid links from a BeautifulSoup object."""
     links = []
+    base_netloc = urlparse(base_url).netloc # netloc is 'Network Location' or domain
+
     for a_tag in soup.find_all('a', href=True):
         href = a_tag['href']
         # Convert relative URLs to absolute URLs
         absolute_url = urljoin(base_url, href)
+        parsed = urlparse(absolute_url)
+        if parsed.netloc == base_netloc:
+            # Reconstruct URL without query and fragment
+            clean_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+            
+            if clean_url not in links:
+                links.append(clean_url)
         
-        # We only want to crawl the target website, not external links
-        if urlparse(absolute_url).netloc == urlparse(base_url).netloc:
-            links.append(absolute_url)
     return links
 
 def crawl_website(seed_url):
@@ -47,7 +53,7 @@ def crawl_website(seed_url):
 
         try:
             # 2. Fetch the HTML
-            response = requests.get(current_url)
+            response = requests.get(current_url, timeout=10)
             # Raise an exception if the server returns an error (e.g., 404 Not Found)
             response.raise_for_status() 
             
