@@ -3,9 +3,12 @@ from bs4 import BeautifulSoup
 
 def clean_text(soup: BeautifulSoup):
     """
-    Extracts text from the HTML, makes it case-insensitive, 
-    removes punctuation, and splits it into a list of words.
+    Extracts clean text from HTML by removing noise (scripts, styles),
+    converting to lowercase, stripping punctuation, and splitting into words.
     """
+    for element in soup(["script", "style", "meta", "noscript"]):
+        element.decompose()
+
     text = soup.get_text(separator=" ", strip=True).lower()
     
     # Remove punctuation with regex
