@@ -1,8 +1,8 @@
 import sys
 import json
 import os
-from crawler import crawl_website
-from search import get_word_statistics, find_query
+from src.crawler import crawl_website
+from src.search import get_word_statistics, find_query
 
 INDEX_FILE_PATH = os.path.join("data", "index.json")
 
