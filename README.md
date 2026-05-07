@@ -20,8 +20,8 @@ You can install the dependencies using the provided `requirements.txt` file.
 
 ### 1. Clone the repository
 ```bash
-git clone <https://github.com/Daiaye/search-engine-tool>
-cd <search-engine-tool>
+git clone https://github.com/Daiaye/search-engine-tool
+cd search-engine-tool
 ```
 
 ### 2. Environment setup
