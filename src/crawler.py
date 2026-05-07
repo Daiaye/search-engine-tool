@@ -108,8 +108,7 @@ def crawl_website(seed_url: str) -> IndexType:
 
     print(f"Starting crawl at {seed_url}...")
 
-    # TODO: Remove testing limit 'len(visited) < 3'
-    while frontier and len(visited) < 3:
+    while frontier:
         current_url = frontier.popleft()
 
         if current_url in visited:
@@ -137,8 +136,3 @@ def crawl_website(seed_url: str) -> IndexType:
 
     print(f"\nCrawling complete! Total pages visited: {len(visited)}")
     return inverted_index
-
-# TEMPORARY TEST BLOCK
-if __name__ == "__main__":
-    print("Running a quick 3-page test...")
-    crawl_website("https://quotes.toscrape.com/")
