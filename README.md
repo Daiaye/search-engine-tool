@@ -53,21 +53,23 @@ To start the interactive command-line interface:
 python -m src.main
 ```
 
-Once the shell is running (>), you can use the following four commands:
+Once the shell is running (>), you can use the following five commands:
 
-`build`: Crawls the target website, respects a 6-second politeness window between requests, builds the inverted index in memory, and saves it to the local file system (data/index.json).
+1. `build`: Crawls the target website, respects a 6-second politeness window between requests, builds the inverted index in memory, and saves it to the local file system (data/index.json).
 
-`load`: Loads a previously built index from the file system into memory. You must run this (or `build`) before searching.
+2. `load`: Loads a previously built index from the file system into memory. You must run this (or `build`) before searching.
 
-`print <word>`: Retrieves and displays the raw indexing statistics (frequency and exact integer positions) for a specific word across all crawled pages. 
+3. `print <word>`: Retrieves and displays the raw indexing statistics (frequency and exact integer positions) for a specific word across all crawled pages. 
 
-Example: `> print nonsense`
+    Example: `> print nonsense`
 
-`find <query...>`: Searches the index for single or multi-word queries. Single words are ranked by total frequency. Multi-word queries utilise the positional data to perform an Exact Phrase Match, filtering out pages where the words exist but are scattered.
+4. `find <query...>`: Searches the index for single or multi-word queries. Single words are ranked by total frequency. Multi-word queries utilise the positional data to perform an Exact Phrase Match, filtering out pages where the words exist but are scattered.
 
-For a single word query: `> find indifference`
+    For a single word query: `> find indifference`
 
-For a multi-word query: `> find good friends`
+    For a multi-word query: `> find good friends`
+
+5. `exit`: Exit the program.
 
 ## Testing Instructions
 
