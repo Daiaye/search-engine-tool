@@ -4,8 +4,12 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from src.indexer import index_page_content
 from collections import deque
+from typing import Optional, List, Dict, Any, Set
 
-def normalise_url(url, base_netloc):
+# Custom type alias for the inverted index
+IndexType = Dict[str, Dict[str, Dict[str, Any]]]
+
+def normalise_url(url: str, base_netloc: str) -> Optional[str]:
     """
     Validates if a URL is internal and returns a version without fragments or queries to prevent duplicate crawling of the same page.
     Returns None if the URL is external.
@@ -15,12 +19,12 @@ def normalise_url(url, base_netloc):
         return f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
     return None
 
-def get_all_links(soup, base_url):
+def get_all_links(soup: BeautifulSoup, base_url: str) -> List[str]:
     """
     Extracts and normalises all internal links.
     """
-    links = []
-    links_set = set()
+    links: List[str] = []
+    links_set: Set[str] = set()
     base_netloc = urlparse(base_url).netloc # netloc is 'Network Location' or domain
 
     for a_tag in soup.find_all('a', href=True):
@@ -34,7 +38,7 @@ def get_all_links(soup, base_url):
         
     return links
 
-def fetch_page(url):
+def fetch_page(url: str) -> Optional[BeautifulSoup]:
     """Handles the network request and returns a BeautifulSoup object or None on failure."""
     try:
         response = requests.get(url, timeout=10)
@@ -44,20 +48,20 @@ def fetch_page(url):
         print(f"Failed to crawl {url}: {e}")
         return None
 
-def enforce_politeness(visited_count):
+def enforce_politeness(visited_count: int) -> None:
     """Wait for the required 6-second window if this is not the first request."""
     if visited_count > 0:
         print("Waiting 6 seconds to be polite...")
         time.sleep(6)
 
-def crawl_website(seed_url):
+def crawl_website(seed_url: str) -> IndexType:
     """
     Coordinates the crawling process using BFS.
     """
     frontier = deque([seed_url])
-    frontier_set = {seed_url} # To check if a link is already in frontier in O(1)
-    visited = set()       
-    inverted_index = {}   
+    frontier_set: Set[str] = {seed_url} # To check if a link is already in frontier in O(1)
+    visited: Set[str] = set()       
+    inverted_index: IndexType = {}   
 
     print(f"Starting crawl at {seed_url}...")
 

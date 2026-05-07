@@ -3,14 +3,18 @@ import json
 import os
 from src.crawler import crawl_website
 from src.search import get_word_statistics, find_query
+from typing import Optional, Dict, Any
+
+# Custom type alias for the inverted index
+IndexType = Dict[str, Dict[str, Dict[str, Any]]]
 
 INDEX_FILE_PATH = os.path.join("data", "index.json")
 
-def main():
+def main() -> None:
     print("Welcome to the COMP3011 Search Engine Tool")
     print("Available commands: build, load, print <word>, find <query...>, exit")
     
-    current_index = None # Holds the index in memory once loaded
+    current_index: Optional[IndexType] = None # Holds the index in memory once loaded
 
     while True:
         try:

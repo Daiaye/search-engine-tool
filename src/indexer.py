@@ -1,7 +1,11 @@
 import re
 from bs4 import BeautifulSoup
+from typing import List, Dict, Any
 
-def clean_text(soup: BeautifulSoup):
+# Custom type alias for the inverted index
+IndexType = Dict[str, Dict[str, Dict[str, Any]]]
+
+def clean_text(soup: BeautifulSoup) -> List[str]:
     """
     Extracts clean text from HTML by removing noise (scripts, styles),
     converting to lowercase, stripping punctuation, and splitting into words.
@@ -17,7 +21,7 @@ def clean_text(soup: BeautifulSoup):
 
     return words_list
 
-def index_page_content(soup, current_url, inverted_index):
+def index_page_content(soup: BeautifulSoup, current_url: str, inverted_index: IndexType) -> IndexType:
     """
     Takes the parsed HTML, extracts the words, and updates the inverted index
     with the frequency and positions of each word on this specific page.
