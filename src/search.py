@@ -5,8 +5,16 @@ IndexType = Dict[str, Dict[str, Dict[str, Any]]]
 
 def get_word_statistics(index: Optional[IndexType], word: str) -> Optional[List[Tuple[str, Dict[str, Any]]]]:
     """
-    Returns the inverted index statistics for a specific word.
-    Returns None if index is empty, or an empty list if word not found.
+    Retrieves indexing statistics (frequency and positions) for a specific word.
+
+    Args:
+        index (Optional[IndexType]): The loaded inverted index dictionary.
+        word (str): The word to query in the index.
+
+    Returns:
+        Optional[List[Tuple[str, Dict[str, Any]]]]: A list of tuples containing the 
+        URL and its associated statistics. Returns None if the index is empty, 
+        or an empty list if the word is not found.
     """
     if not index:
         return None
@@ -19,14 +27,31 @@ def get_word_statistics(index: Optional[IndexType], word: str) -> Optional[List[
 
 def get_missing_words(index: IndexType, query_words: List[str]) -> List[str]:
     """
-    Helper function to identify any words from the search query 
-    that are completely missing from the inverted index.
+    Identifies words from a search query that are absent from the entire index.
+
+    Args:
+        index (IndexType): The loaded inverted index dictionary.
+        query_words (List[str]): A list of lowercase words from the search query.
+
+    Returns:
+        List[str]: A list of query words that do not exist in the index.
     """
     return [word for word in query_words if word not in index]
 
 def get_matching_urls(index: IndexType, query_words: List[str]) -> Optional[Set[str]]:
     """
-    Helper function that uses set intersection to find pages that contain ALL words in the query.
+    Finds URLs that contain ALL the words specified in a search query.
+
+    Utilises set intersection to efficiently filter down the URLs that share
+    all words in the multi-word query. Exits early if an intersection is empty.
+
+    Args:
+        index (IndexType): The loaded inverted index dictionary.
+        query_words (List[str]): A list of lowercase words from the search query.
+
+    Returns:
+        Optional[Set[str]]: A set of URLs containing all query words, or None if 
+        no such URLs exist.
     """
     matching_urls: Optional[Set[str]] = None
 
@@ -46,8 +71,16 @@ def get_matching_urls(index: IndexType, query_words: List[str]) -> Optional[Set[
 
 def rank_results(index: IndexType, matching_urls: Set[str], query_words: List[str]) -> List[Tuple[str, int]]:
     """
-    Helper function to calculate the total frequency score for each matching URL
-    and return a list of (url, score) tuples sorted highest to lowest.
+    Ranks a set of matching URLs based on the total frequency of query words.
+
+    Args:
+        index (IndexType): The loaded inverted index dictionary.
+        matching_urls (Set[str]): A set of URLs known to contain all query words.
+        query_words (List[str]): A list of lowercase words from the search query.
+
+    Returns:
+        List[Tuple[str, int]]: A list of (URL, total_score) tuples, sorted in 
+        descending order of their total score.
     """
     ranked_results: List[Tuple[str, int]] = []
 
@@ -63,9 +96,21 @@ def rank_results(index: IndexType, matching_urls: Set[str], query_words: List[st
     return ranked_results
 
 def find_query(index: Optional[IndexType], query_words: List[str]) -> Tuple[Optional[List[str]], Optional[List[Tuple[str, int]]]]:
-    """"
-    Main function to find ranked search results for a multi-word query.
-    Returns a tuple: (missing_words_list, ranked_results_list)
+    """
+    Orchestrates a multi-word search query against the inverted index.
+
+    Identifies any missing words to prevent unnecessary computation. If all words 
+    exist in the index, it finds pages containing all words and ranks them by 
+    their total frequency scores.
+
+    Args:
+        index (Optional[IndexType]): The loaded inverted index dictionary.
+        query_words (List[str]): A list of lowercase words from the user's query.
+
+    Returns:
+        Tuple[Optional[List[str]], Optional[List[Tuple[str, int]]]]: A tuple where 
+        the first element is a list of missing words (if any), and the second is 
+        a ranked list of (URL, score) tuples.
     """
     if not index:
         return None, None

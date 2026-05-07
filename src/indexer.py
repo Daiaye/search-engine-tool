@@ -7,8 +7,17 @@ IndexType = Dict[str, Dict[str, Dict[str, Any]]]
 
 def clean_text(soup: BeautifulSoup) -> List[str]:
     """
-    Extracts clean text from HTML by removing noise (scripts, styles),
-    converting to lowercase, stripping punctuation, and splitting into words.
+    Extracts and cleans visible text from an HTML document.
+
+    Removes structural noise like scripts, styles, and meta tags. 
+    Converts all remaining text to lowercase, strips punctuation using 
+    regular expressions, and splits the content into individual words.
+
+    Args:
+        soup (BeautifulSoup): The parsed HTML document to clean.
+
+    Returns:
+        List[str]: A chronological list of cleaned words extracted from the page.
     """
     for element in soup(["script", "style", "meta", "noscript"]):
         element.decompose()
@@ -23,8 +32,18 @@ def clean_text(soup: BeautifulSoup) -> List[str]:
 
 def index_page_content(soup: BeautifulSoup, current_url: str, inverted_index: IndexType) -> IndexType:
     """
-    Takes the parsed HTML, extracts the words, and updates the inverted index
-    with the frequency and positions of each word on this specific page.
+    Processes a page's HTML to extract words and update the global inverted index.
+
+    Calculates word occurrences and their exact positional indices on the current 
+    page, then updates the shared inverted index structure accordingly.
+
+    Args:
+        soup (BeautifulSoup): The parsed HTML of the current page.
+        current_url (str): The URL of the page being indexed.
+        inverted_index (IndexType): The current state of the global inverted index.
+
+    Returns:
+        IndexType: The updated inverted index incorporating data from this page.
     """
     words = clean_text(soup)
 

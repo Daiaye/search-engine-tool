@@ -11,6 +11,14 @@ IndexType = Dict[str, Dict[str, Dict[str, Any]]]
 INDEX_FILE_PATH = os.path.join("data", "index.json")
 
 def main() -> None:
+    """
+    Main orchestrator for the COMP3011 Search Engine Tool.
+    
+    Provides an interactive command-line interface (CLI) allowing the user to 
+    build a search index by crawling a specified website, load an existing 
+    index from the file system, retrieve statistics for specific words, 
+    and search for multi-word queries.
+    """
     print("Welcome to the COMP3011 Search Engine Tool")
     print("Available commands: build, load, print <word>, find <query...>, exit")
     

@@ -11,8 +11,18 @@ IndexType = Dict[str, Dict[str, Dict[str, Any]]]
 
 def normalise_url(url: str, base_netloc: str) -> Optional[str]:
     """
-    Validates if a URL is internal and returns a version without fragments or queries to prevent duplicate crawling of the same page.
-    Returns None if the URL is external.
+    Validates and normalises a URL to prevent duplicate crawling.
+
+    Ensures the URL belongs to the target domain (internal link) and strips 
+    any fragments (e.g., #section) or query parameters (e.g., ?sort=asc) 
+    from the URL string.
+
+    Args:
+        url (str): The absolute URL to be normalised.
+        base_netloc (str): The network location (domain) of the base website.
+
+    Returns:
+        Optional[str]: The cleaned URL if internal, or None if it is external.
     """
     parsed = urlparse(url)
     if parsed.netloc == base_netloc:
@@ -21,7 +31,14 @@ def normalise_url(url: str, base_netloc: str) -> Optional[str]:
 
 def get_all_links(soup: BeautifulSoup, base_url: str) -> List[str]:
     """
-    Extracts and normalises all internal links.
+    Extracts, normalises, and deduplicates all internal links from an HTML page.
+
+    Args:
+        soup (BeautifulSoup): The parsed HTML content of the page.
+        base_url (str): The URL of the current page being parsed.
+
+    Returns:
+        List[str]: A list of valid, unique internal URLs found on the page.
     """
     links: List[str] = []
     links_set: Set[str] = set()
@@ -39,7 +56,16 @@ def get_all_links(soup: BeautifulSoup, base_url: str) -> List[str]:
     return links
 
 def fetch_page(url: str) -> Optional[BeautifulSoup]:
-    """Handles the network request and returns a BeautifulSoup object or None on failure."""
+    """
+    Fetches the HTML content of a given URL and parses it.
+
+    Args:
+        url (str): The URL to fetch.
+
+    Returns:
+        Optional[BeautifulSoup]: A parsed BeautifulSoup object if the request 
+        is successful, or None if a network or HTTP error occurs.
+    """
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
@@ -49,14 +75,31 @@ def fetch_page(url: str) -> Optional[BeautifulSoup]:
         return None
 
 def enforce_politeness(visited_count: int) -> None:
-    """Wait for the required 6-second window if this is not the first request."""
+    """
+    Enforces a politeness delay between consecutive HTTP requests.
+
+    Args:
+        visited_count (int): The number of pages crawled so far. A delay is 
+        only applied if this is greater than 0 (i.e., not the seed URL).
+    """
     if visited_count > 0:
         print("Waiting 6 seconds to be polite...")
         time.sleep(6)
 
 def crawl_website(seed_url: str) -> IndexType:
     """
-    Coordinates the crawling process using BFS.
+    Coordinates the web crawling process using Breadth-First Search (BFS).
+
+    Visits pages starting from the seed_url, respects politeness policies,
+    extracts links to discover new pages, and builds an inverted index of 
+    the text content found across the crawled pages.
+
+    Args:
+        seed_url (str): The initial URL to start crawling from.
+
+    Returns:
+        IndexType: A deeply nested dictionary representing the inverted index,
+        mapping words to URLs and their corresponding frequency/positions.
     """
     frontier = deque([seed_url])
     frontier_set: Set[str] = {seed_url} # To check if a link is already in frontier in O(1)
