@@ -1,5 +1,3 @@
-import json
-
 def get_word_statistics(index, word):
     """
     Returns the inverted index statistics for a specific word.
@@ -8,6 +6,7 @@ def get_word_statistics(index, word):
     if not index:
         return None
 
+    word = word.lower()
     if word in index:
         return list(index[word].items())
         
@@ -33,6 +32,10 @@ def get_matching_urls(index, query_words):
             matching_urls = urls_for_word
         else:
             matching_urls = matching_urls & urls_for_word
+        
+        # If no common pages, exit early
+        if not matching_urls:
+            break
 
     return matching_urls
 
