@@ -69,9 +69,51 @@ def get_matching_urls(index: IndexType, query_words: List[str]) -> Optional[Set[
 
     return matching_urls
 
+def get_phrase_frequency(index: IndexType, url: str, query_words: List[str]) -> int:
+    """
+    Calculates the frequency of an exact multi-word phrase on a specific page.
+
+    Iterates through the recorded word positions to ensure the queried words 
+    appear consecutively in the exact order specified by the user.
+
+    Args:
+        index (IndexType): The loaded inverted index dictionary.
+        url (str): The specific URL to check for the phrase.
+        query_words (List[str]): A list of lowercase words forming the search phrase.
+
+    Returns:
+        int: The number of times the exact unbroken phrase appears on the page.
+    """
+    if not query_words:
+        return 0
+    
+    # Start with the positions of the first word
+    base_positions = index[query_words[0]][url]["positions"]
+    
+    # For a valid phrase, the i-th word must be at base_position + i
+    for i in range(1, len(query_words)):
+        next_word_positions = set(index[query_words[i]][url]["positions"])
+        
+        # Keep only the starting positions that are followed by the next word
+        base_positions = [
+            pos for pos in base_positions 
+            if (pos + i) in next_word_positions
+        ]
+        
+        # If at any point no valid sequences remain, the phrase doesn't exist here
+        if not base_positions:
+            return 0
+            
+    return len(base_positions)
+
 def rank_results(index: IndexType, matching_urls: Set[str], query_words: List[str]) -> List[Tuple[str, int]]:
     """
-    Ranks a set of matching URLs based on the total frequency of query words.
+    Ranks matching URLs based on search relevance.
+
+    For single-word queries, relevance is based on standard term frequency.
+    For multi-word queries, relevance is scored strictly based on exact 
+    consecutive phrase frequency. Pages where the words exist but not as 
+    an exact phrase are filtered out.
 
     Args:
         index (IndexType): The loaded inverted index dictionary.
@@ -79,17 +121,22 @@ def rank_results(index: IndexType, matching_urls: Set[str], query_words: List[st
         query_words (List[str]): A list of lowercase words from the search query.
 
     Returns:
-        List[Tuple[str, int]]: A list of (URL, total_score) tuples, sorted in 
-        descending order of their total score.
+        List[Tuple[str, int]]: A list of (URL, score) tuples, sorted in 
+        descending order of their relevance score.
     """
     ranked_results: List[Tuple[str, int]] = []
 
     for url in matching_urls:
-        total_score = 0
-        for word in query_words:
-            total_score += index[word][url]["frequency"]
-
-        ranked_results.append((url, total_score))
+        if len(query_words) == 1:
+            # Single word: use standard frequency
+            score = index[query_words[0]][url]["frequency"]
+        else:
+            # Multi-word: use exact consecutive phrase frequency
+            score = get_phrase_frequency(index, url, query_words)
+        
+        # Only include URLs where the phrase actually appears
+        if score > 0:
+            ranked_results.append((url, score))
 
     ranked_results.sort(key=lambda x: x[1], reverse=True)
     
@@ -100,8 +147,7 @@ def find_query(index: Optional[IndexType], query_words: List[str]) -> Tuple[Opti
     Orchestrates a multi-word search query against the inverted index.
 
     Identifies any missing words to prevent unnecessary computation. If all words 
-    exist in the index, it finds pages containing all words and ranks them by 
-    their total frequency scores.
+    exist in the index, it finds pages containing all words and ranks them.
 
     Args:
         index (Optional[IndexType]): The loaded inverted index dictionary.

@@ -84,7 +84,10 @@ def main() -> None:
                     continue
                 
                 query_words = [w.lower() for w in args]
-                print(f"Searching for pages containing: {', '.join(query_words)}")
+                term_type = "phrase" if len(query_words) > 1 else "word"
+                display_query = " ".join(query_words)
+                
+                print(f"Searching for pages containing the {term_type}: '{display_query}'")
                 missing, results = find_query(current_index, query_words)
 
                 if missing is None and results is None:
@@ -92,11 +95,11 @@ def main() -> None:
                 elif missing:
                     print(f"\nSearch failed. The following word(s) were never found during crawling: {', '.join(missing)}")
                 elif results:
-                    print(f"\nFound {len(results)} page(s) containing: {', '.join(query_words)}")
+                    print(f"\nFound {len(results)} page(s) containing the {term_type}: '{display_query}'")
                     for url, score in results:
                         print(f" - {url} (Total Mentions: {score})")
                 else:
-                    print(f"\nNo single page was found containing all the words: {', '.join(query_words)}")
+                    print(f"\nNo single page was found containing the {term_type}: '{display_query}'")
             
             elif command in ["exit", "quit"]:
                 print("Exiting tool. Goodbye!")
